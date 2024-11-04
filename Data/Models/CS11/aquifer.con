@@ -1,0 +1,3 @@
+aquifer.con: written by SWAT+ editor v2.2.0 on 2024-01-15 12:53 for SWAT+ rev.60.5.4
+      id  name                gis_id          area           lat           lon          elev       aqu               wst       cst      ovfl      rule   out_tot  
+       1  aqu1                     0    7236.87119      46.67423      17.76672     205.90164         1         s467n178e         0         0         0         0  

@@ -1,0 +1,12 @@
+weather-sta.cli: written by SWAT+ editor v2.1.0 on 2023-09-11 10:25 for SWAT+ rev.60.5.4
+name                           wgn                        pcp                        tmp                        slr                        hmd                        wnd           wnd_dir          atmo_dep  
+s49652n5592e               Buzenol                sta_id6.pcp                sta_id6.tmp                sta_id6.slr                sta_id6.hmd                sta_id6.wnd              null       atmodep.cli  
+s49979n4979e               Gedinne               sta_id10.pcp               sta_id10.tmp               sta_id10.slr               sta_id10.hmd               sta_id10.wnd              null       atmodep.cli  
+s50022n5374e          Saint-Hubert                sta_id1.pcp                sta_id1.tmp                sta_id1.slr                sta_id1.hmd                sta_id1.wnd              null       atmodep.cli  
+s5004n5128e             Daverdisse                sta_id7.pcp                sta_id7.tmp                sta_id7.slr                sta_id7.hmd                sta_id7.wnd              null       atmodep.cli  
+s50093n4587e               Dourbes                sta_id3.pcp                sta_id3.tmp                sta_id3.slr                sta_id3.hmd                sta_id3.wnd              null       atmodep.cli  
+s5011n4951e              Beauraing                sta_id8.pcp                sta_id8.tmp                sta_id8.slr                sta_id8.hmd                sta_id8.wnd              null       atmodep.cli  
+s50165n5214e             Rochefort                sta_id9.pcp                sta_id9.tmp                sta_id9.slr                sta_id9.hmd                sta_id9.wnd              null       atmodep.cli  
+s50205n5255e                Humain                sta_id4.pcp                sta_id4.tmp                sta_id4.slr                sta_id4.hmd                sta_id4.wnd              null       atmodep.cli  
+s50239n4642e             Florennes                sta_id2.pcp                sta_id2.tmp                sta_id2.slr                sta_id2.hmd                sta_id2.wnd              null       atmodep.cli  
+s50599n4678e                Ernage                sta_id5.pcp                sta_id5.tmp                sta_id5.slr                sta_id5.hmd                sta_id5.wnd              null       atmodep.cli  

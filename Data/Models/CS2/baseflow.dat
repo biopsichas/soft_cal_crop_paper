@@ -1,0 +1,6 @@
+Baseflow data file: this file summarizes the fraction of streamflow that is contributed by baseflow for each of the 3 passes made by the program
+
+Gage file       Baseflow Fr1 Baseflow Fr2 Baseflow Fr3    NPR Alpha Factor Baseflow Days
+pg_vlg_1993.prn         0.72         0.60         0.54     27       0.0784       29.3545
+pg_bsy.prn              0.83         0.75         0.71
+bn_lvn.prn              0.81         0.73         0.68

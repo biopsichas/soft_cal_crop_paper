@@ -1,0 +1,14 @@
+lulc_mgt,mon_1,day_1,mon_2,day_2,operation,op_data1,op_data2,op_data3
+past,,,,,initial_plant,hay,"1,10000,0,0,1,10000",
+past,3,1,3,15,fertilizer,liq_man_it,aerial_liquid,4800
+past,4,20,5,4,harvest_only,hayd,hay_cut_low,
+past,6,20,7,4,harvest_only,hayd,hay_cut_low,
+past,8,20,9,4,harvest_only,hayd,hay_cut_low,
+past,9,20,10,4,harvest_only,hayd,hay_cut_low,
+orcd,,,,,initial_plant,orcd,"2,20000,0,0,1,10000",
+orcd,9,1,9,30,harvest_only,orcd,orchard,
+frst,,,,,initial_plant,frst,"2,50000,0,0,1,10000",
+frst,10,15,12,30,harvest_only,frsdit,forest_cut,
+wetl,,,,,initial_plant,wetl,"2,50000,0,0,1,10000",
+rngb,,,,,initial_plant,rngb,"1,10000,0,0,1,10000",
+rnge,,,,,initial_plant,rnge,"1,10000,0,0,1,10000",

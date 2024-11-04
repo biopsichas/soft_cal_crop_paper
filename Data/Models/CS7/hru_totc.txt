@@ -1,0 +1,4 @@
+ project_June2023          SWAT+ Jan 11 2024        MODULAR Rev 2024.61.0                                 
+ HRU_TOTC                  hru_totc.txt
+        jday          yr        unit    soil_tot_c   plant_tot_c     rsd_tot_c 
+          --          --          --          kg/ha         kg/ha         kg/ha

@@ -1,0 +1,13 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+test*
+figs*
+/*aa.txt
+/*yr.txt
+/*mo.txt
+/*day.txt
+/*totc.txt
+/*.sqlite
+/*.out

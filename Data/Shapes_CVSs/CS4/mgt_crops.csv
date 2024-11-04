@@ -1,0 +1,107 @@
+crop_mgt,mon_1,day_1,mon_2,day_2,operation,op_data1,op_data2,op_data3
+wwht,9,25,10,20,tillage,fallplow,NA,NA
+wwht,9,25,10,20,fertilizer,elem_n ,broadcast,25
+wwht,9,25,10,20,fertilizer,elem_p,broadcast,25
+wwht,9,25,10,20,plant,wwht,NA,NA
+wwht,NA,NA,NA,NA,skip,NA,NA,NA
+wwht,3,15,3,30,fertilizer,elem_n ,broadcast,65
+wwht,5,10,5,31,fertilizer,elem_n ,broadcast,45
+wwht,7,25,8,10,harvest_only,wwht,grain,NA
+wwht,7,25,8,10,kill_only,wwht,NA,NA
+trit,9,25,10,5,tillage,fallplow,NA,NA
+trit,9,25,10,5,fertilizer,elem_n ,broadcast,25
+trit,9,25,10,5,fertilizer,elem_p,broadcast,25
+trit,9,25,10,5,plant,trit,NA,NA
+trit,NA,NA,NA,NA,skip,NA,NA,NA
+trit,3,15,3,30,fertilizer,elem_n ,broadcast,55
+trit,5,10,5,31,fertilizer,elem_n ,broadcast,35
+trit,7,25,8,10,harvest_only,trit,grain,NA
+trit,7,25,8,10,kill_only,trit,NA,NA
+canp,8,15,8,20,tillage,fallplow,NA,NA
+canp,8,15,8,20,fertilizer,elem_n ,broadcast,30
+canp,8,15,8,20,fertilizer,elem_p,broadcast,40
+canp,8,15,8,20,plant,canp,NA,NA
+canp,NA,NA,NA,NA,skip,NA,NA,NA
+canp,3,1,3,15,fertilizer,elem_n ,broadcast,85
+canp,4,1,4,15,fertilizer,elem_n ,broadcast,45
+canp,7,10,7,20,harvest_only,canp,grain,NA
+canp,7,10,7,20,kill_only,canp,NA,NA
+barl,10,15,10,25,tillage,fallplow,NA,NA
+barl,NA,NA,NA,NA,skip,NA,NA,NA
+barl,3,15,4,15,fertilizer,elem_n ,broadcast,15
+barl,3,15,4,15,fertilizer,elem_p,broadcast,17
+barl,3,25,4,15,plant,barl,NA,NA
+barl,5,10,5,20,fertilizer,elem_n ,broadcast,60
+barl,5,25,5,30,fertilizer,elem_n ,broadcast,20
+barl,7,15,7,31,harvest_only,barl,grain,NA
+barl,7,15,7,31,kill_only,barl,NA,NA
+csil,NA,NA,NA,NA,skip,NA,NA,NA
+csil,3,20,4,15,fertilizer,swine_fr,broadcast,30000
+csil,3,20,4,15,tillage,cchplow,NA,NA
+csil,4,15,4,30,fertilizer,elem_n,broadcast,40
+csil,4,15,4,30,fertilizer,elem_p,broadcast,21
+csil,4,20,5,10,plant,csil,NA,NA
+csil,9,1,9,30,harvest_only,csil,silage,NA
+csil,9,1,9,30,kill_only,csil,NA,NA
+corn,NA,NA,NA,NA,skip,NA,NA,NA
+corn,3,20,4,15,fertilizer,swine_fr,broadcast,30000
+corn,3,20,4,15,tillage,cchplow,NA,NA
+corn,4,15,4,30,fertilizer,elem_n,broadcast,46
+corn,4,15,4,30,fertilizer,elem_p,broadcast,21
+corn,4,15,4,30,plant,corn,NA,NA
+corn,10,1,11,30,harvest_only,corn,grain,NA
+corn,10,1,11,30,kill_only,corn,NA,NA
+sgbt,8,5,8,15,tillage,landlevl,NA,NA
+sgbt,10,1,10,15,fertilizer,swine_fr,broadcast,30000
+sgbt,10,1,10,15,tillage,fallplow,NA,NA
+sgbt,NA,NA,NA,NA,skip,NA,NA,NA
+sgbt,4,10,4,15,fertilizer,elem_n,broadcast,20
+sgbt,4,10,4,15,fertilizer,elem_p,broadcast,25
+sgbt,4,15,4,25,plant,sgbt,NA,NA
+sgbt,5,20,5,25,fertilizer,elem_n,broadcast,50
+sgbt,6,5,6,10,fertilizer,elem_n,broadcast,40
+sgbt,10,10,10,15,harvest_only,sgbt,tuber,NA
+sgbt,10,10,10,15,kill_only,sgbt,NA,NA
+onio,8,10,8,20,tillage,landlevl,NA,NA
+onio,9,25,10,10,fertilizer,elem_n,broadcast,20
+onio,9,25,10,10,fertilizer,elem_p,broadcast,25
+onio,9,26,10,11,tillage,fallplow,NA,NA
+onio,NA,NA,NA,NA,skip,NA,NA,NA
+onio,3,20,3,31,fertilizer,elem_p,broadcast,54
+onio,4,5,4,15,plant,onio,NA,NA
+onio,5,15,5,25,fertilizer,elem_n,broadcast,80
+onio,8,15,8,31,harvest_only,onio,tuber,NA
+onio,8,15,8,31,kill_only,onio,NA,NA
+mint,8,15,8,20,tillage,landlevl,NA,NA
+mint,10,25,10,30,tillage,fallplow,NA,NA
+mint,NA,NA,NA,NA,skip,NA,NA,NA
+mint,4,10,4,15,fertilizer,elem_n,broadcast,10
+mint,4,10,4,15,fertilizer,elem_p,broadcast,12
+mint,4,20,4,25,plant,mint,NA,NA
+mint,5,20,5,25,fertilizer,elem_n,broadcast,55
+mint,7,25,7,30,harvest_only,mint,hay_cut_low,NA
+mint,8,1,8,5,harvest_only,mint,hay_cut_low,NA
+mint,8,1,8,5,kill_only,mint,NA,NA
+lett,8,1,8,15,tillage,landlevl,NA,NA
+lett,10,20,10,30,tillage,fallplow,NA,NA
+lett,NA,NA,NA,NA,skip,NA,NA,NA
+lett,3,25,3,30,fertilizer,elem_n,broadcast,35
+lett,4,1,4,5,plant,lett,NA,NA
+lett,6,15,6,18,harvest_only,lett,hay_cut_low,NA
+lett,6,18,6,20,fertilizer,elem_n,broadcast,35
+lett,7,15,7,18,harvest_only,lett,hay_cut_low,NA
+lett,7,18,7,20,fertilizer,elem_n,broadcast,35
+lett,8,15,8,18,harvest_only,lett,hay_cut_low,NA
+lett,8,18,8,20,fertilizer,elem_n,broadcast,35
+lett,9,15,9,20,harvest_only,lett,hay_cut_low,NA
+lett,9,15,9,20,kill_only,lett,NA,NA
+crrt,8,15,8,20,tillage,landlevl,NA,NA
+crrt,10,25,10,30,tillage,fallplow,NA,NA
+crrt,NA,NA,NA,NA,skip,NA,NA,NA
+crrt,4,5,4,10,tillage,landlevl,NA,NA
+crrt,4,5,4,10,fertilizer,elem_n,broadcast,55
+crrt,4,5,4,10,fertilizer,elem_p,broadcast,21
+crrt,4,10,4,15,plant,crrt,NA,NA
+crrt,5,20,5,30,fertilizer,elem_n,broadcast,55
+crrt,10,10,10,30,harvest_only,crrt,tuber,NA
+crrt,10,10,10,30,kill_only,crrt,NA,NA

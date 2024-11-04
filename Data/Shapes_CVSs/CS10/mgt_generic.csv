@@ -1,0 +1,13 @@
+lulc_mgt,mon_1,day_1,mon_2,day_2,operation,op_data1,op_data2,op_data3
+frst,,,,,initial_plant,frst,"2,50000,0,0,1,10000",
+wetl,,,,,initial_plant,wetl,"2,50000,0,0,1,10000",
+rngb,,,,,initial_plant,rngb,"1,1000,0,0,1,1000",
+rnge,,,,,initial_plant,rnge,"1,1000,0,0,1,1000",
+bsvg,,,,,initial_plant,bsvg,"0.1,10,0,0,1,10",
+past,,,,,initial_plant,cngr,"1,1000,0,0,1,1000",
+gras,,,,,initial_plant,cngr,"1,1000,0,0,1,1000",
+gras,4,10,5,5,fertilizer,elem_n,broadcast,60
+gras,4,10,5,5,fertilizer,elem_p,broadcast,25
+gras,6,25,7,5,harvest_only,cngr,hay_cut_low,
+gras,7,6,7,15,fertilizer,elem_n,broadcast,40
+gras,9,10,9,30,harvest_only,cngr,hay_cut_low,

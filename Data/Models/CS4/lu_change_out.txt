@@ -1,0 +1,2 @@
+ cs4_project               SWAT+ Jan 11 2024        MODULAR Rev 2024.61.0                                 
+          hru       year         mon         day     operation   lu_before         lu_after

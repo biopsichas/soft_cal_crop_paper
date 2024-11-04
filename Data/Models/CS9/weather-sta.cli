@@ -1,0 +1,7 @@
+weather-sta.cli: written by SWAT+ editor v2.1.0 on 2024-02-20 09:21 for SWAT+ rev.60.5.4
+name                           wgn                        pcp                        tmp                        slr                        hmd                        wnd           wnd_dir          atmo_dep  
+s45592n9807e               mornico                mornpcp.pcp                morntmp.tmp                mornrad.slr               mornrhum.hmd          mornwindspeed.wnd              null         atmodep.cli  
+s45665n9957e               sarnico                sarnpcp.pcp                sarntmp.tmp                sarnrad.slr                sanrhum.hmd          sarnwindspeed.wnd              null         atmodep.cli  
+s45715n9692e              tboldone               tboldpcp.pcp               tboldtmp.tmp               tboldrad.slr              tboldrhum.hmd         tboldwindspeed.wnd              null         atmodep.cli  
+s45784n9822e                  cene                 cenpcp.pcp                 centmp.tmp                 cenrad.slr                cenrhum.hmd           cenwindspeed.wnd              null         atmodep.cli  
+s45786n9933e             ranzanico                 ranpcp.pcp                 rantmp.tmp                 ranrad.slr                ranrhum.hmd           ranwindspeed.wnd              null         atmodep.cli  

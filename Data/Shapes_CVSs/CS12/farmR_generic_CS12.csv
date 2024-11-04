@@ -1,0 +1,9 @@
+lulc_mgt,mon_1,day_1,mon_2,day_2,operation,op_data1,op_data2,op_data3
+frst,,,,,initial_plant,frst,"2,50000,0,0,1,10000",
+wetn,,,,,initial_plant,wetn,"2,50000,0,0,1,10000",
+rngb,,,,,initial_plant,rngb,"1,1000,0,0,1,1000",
+rnge,,,,,initial_plant,rnge,"1,1000,0,0,1,1000",
+past,,,,,initial_plant,past,"1,1000,0,0,1,1000",
+wetn_drn,,,,,initial_plant,wetn,"2,50000,0,0,1,10000",
+rngb_drn,,,,,initial_plant,rngb,"1,1000,0,0,1,1000",
+rnge_drn,,,,,initial_plant,rnge,"1,1000,0,0,1,1000",

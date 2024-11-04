@@ -1,0 +1,4 @@
+aquifer.aqu: written by SWAT+ editor v2.1.0 on 2023-02-01 16:50 for SWAT+ rev.60.5.4
+      id  name                          init        gw_flo       dep_bot        dep_wt         no3_n         sol_p        carbon      flo_dist        bf_max      alpha_bf         revap       rchg_dp      spec_yld       hl_no3n       flo_min     revap_min  
+       1  aqu1                      initaqu1       4.00000      8.50000      5.50000       0.00000       0.00000       0.00000       0.00000       1.90000       0.04800       0.05000       0.00000       0.05       0.00000       4.00000       3.50000  
+ 

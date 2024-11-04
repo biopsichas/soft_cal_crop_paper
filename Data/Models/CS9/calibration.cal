@@ -1,0 +1,9 @@
+Number of parameters:
+6
+NAME        CHG_TYPE             VAL           CONDS    LYR1    LYR2   YEAR1   YEAR2    DAY1    DAY2 OBJ_TOT
+cn2           relchg 0.3755682845835               0       0       0       0       0       0       0       0
+ovn           relchg 0.0617804918473               0       0       0       0       0       0       0       0
+awc           relchg 0.1665446328939               0       0       0       0       0       0       0       0
+surlag        absval 1.0093895751074               0       0       0       0       0       0       0       0
+k             relchg 0.4580283789499               0       0       0       0       0       0       0       0
+dep_bot       absval 27.212510998593               0       0       0       0       0       0       0       0

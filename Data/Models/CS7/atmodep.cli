@@ -1,0 +1,8 @@
+'atmodep.cli' file was written by svatools R package 2023-03-09 12:07:05
+NUM_STA	TIMESTEP	MO_INIT	YR_INIT	NUM_AA
+1	aa	0	0	0
+atmodep_1
+1.816	NH4_RF
+2.846	NO3_RF
+9.767	NH4_DRY
+3.500	NO3_DRY

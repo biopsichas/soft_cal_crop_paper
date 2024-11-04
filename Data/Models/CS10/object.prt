@@ -1,0 +1,4 @@
+obj_prt Generated from M:\Constructor\HUC8_models\models\07100007.accdb Time: 12/27/2022 5:50:32 PM
+          ID  OBJ_TYP  OBJ_TYP_NO  HYD_TYP              FILENAME
+           1      cha           37     tot      channel_37.out
+           2	  hru		1	   sol  sol_moist.out

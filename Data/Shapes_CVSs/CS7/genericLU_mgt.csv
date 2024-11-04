@@ -1,0 +1,13 @@
+crop_mgt,mon_1,day_1,mon_2,day_2,operation,op_data1,op_data2,op_data3
+frsd,,,,,initial_plant,frsd,"2.68,84737,0,0,1,44163",
+frse,,,,,initial_plant,frse,"2.8,11202,0,0,1,60746",
+frst,,,,,initial_plant,frst,"2.54,55597,0,0,1,29056",
+rngb,,,,,initial_plant,rngb,"0.32,31475,0,0,1,17313",
+past,,,,,initial_plant,fesc,"0.22,699,0,0,1,983",
+past,1,15,1,20,fertilizer,beef_fr,inject,1000
+past,2,28,3,7,fertilizer,beef_fr,inject,2000
+past,3,1,5,10,grazing,beef_low,null,60
+past,6,1,7,31,grazing,beef_low,null,40
+past,8,1,8,10,fertilizer,beef_fr,inject,1000
+past,8,11,8,15,harvest_only,fesc,hay_cut_low,
+past,9,15,11,30,grazing,beef_low,null,50

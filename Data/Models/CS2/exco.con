@@ -1,0 +1,4 @@
+exco.con: written by SWAT+ editor v2.1.0 on 2024-03-26 18:09 for SWAT+ rev.60.5.4
+      id  name                gis_id          area           lat           lon          elev      exco               wst       cst      ovfl      rule   out_tot       obj_typ    obj_id       hyd_typ          frac  
+       1  GRANDCOUR                0       0.00001      46.86460       6.94367     439.32196         1       s46817n695e         0         0         0         1           sdc        34           tot       1.00000  
+       2  BUSSY                    0       0.00001      46.83497       6.89732     445.13834         2       s46817n695e         0         0         0         1           sdc        60           tot       1.00000  

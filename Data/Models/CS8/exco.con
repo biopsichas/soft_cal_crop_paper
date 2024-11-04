@@ -1,0 +1,10 @@
+exco.con: written by SWAT+ editor v2.1.0 on 2024-09-05 13:47 for SWAT+ rev.60.5.4
+      id  name                gis_id          area           lat           lon          elev      exco               wst       cst      ovfl      rule   out_tot       obj_typ    obj_id       hyd_typ          frac  
+       1  Akad_com_ser_1           0       0.00001      55.30334      23.96861      47.58040         1            D16141         0         0         0         1           res         2           tot       1.00000  
+       2  Akad_com_ser_2           0       0.00001      55.50139      23.79416      87.95950         2            D15040         0         0         0         1           sdc       252           tot       1.00000  
+       3  Akad_com_ser_3           0       0.00001      55.31055      23.97221      36.91570         3            D16141         0         0         0         1           sdc       584           tot       1.00000  
+       4  Akad_com_ser_4           0       0.00001      55.36026      23.89214      53.97400         4            D15046         0         0         0         1           sdc       146           tot       1.00000  
+       5  Mantvil_ZUB              0       0.00001      55.39133      23.85730      64.21210         5     s55400n23867e         0         0         0         1           sdc       235           tot       1.00000  
+       6  Kedain_road_ser          0       0.00001      55.29897      23.98200      29.11890         6            D16141         0         0         0         1           res        63           tot       1.00000  
+       7  Ked_conc_fabric          0       0.00001      55.30193      23.97974      30.82480         7            D16141         0         0         0         1           res         3           tot       1.00000  
+       8  multiple_src_1           0       0.00001      55.51250      23.77248      85.27309         8            D15036         0         0         0         0  

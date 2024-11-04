@@ -1,0 +1,4 @@
+recall.con: written by SWAT+ editor v2.1.0 on 2023-09-11 10:25 for SWAT+ rev.60.5.4
+      id  name                gis_id          area           lat           lon          elev       rec               wst       cst      ovfl      rule   out_tot       obj_typ    obj_id       hyd_typ          frac  
+       1  HautFaysWimbe            0       0.00001      50.00767       5.01180     400.03290         1              null         0         0         0         1           sdc        91           tot       1.00000  
+       2  Pondrome                 0       0.00001      50.09765       5.01328     225.74936         2              null         0         0         0         1           sdc       598           tot       1.00000  
