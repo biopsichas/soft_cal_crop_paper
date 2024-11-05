@@ -7,7 +7,7 @@ library(R.utils)
 library(purrr)
 source('functions.R')
 ## Paths to the shapes and csvs
-path_yield_csvs<- "Obs_yields"
+path_yield_csvs<- "Data/Obs_yields"
 yield_csvs <- list.files(path_yield_csvs, full.names = TRUE, recursive = FALSE)
 ##Read all the shapefiles and extract the data
 df <- NULL

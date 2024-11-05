@@ -27,7 +27,7 @@ run_models <- function(paths, swat_exe){
   cl <- makeCluster(cores,  outfile="")
   registerDoParallel(cl)
   ## Run model runs
-  foreach(f = paths, .packages = c("stringr")) %dopar% {exe_copy_run("Models", f, swat_exe)}
+  foreach(f = paths, .packages = c("stringr")) %dopar% {exe_copy_run("Data/Models", f, swat_exe)}
   ##Clean clusters after
   stopCluster(cl)
   return(cat("Done!"))
@@ -64,10 +64,10 @@ prepare_plants_base <- function(path){
     missing_plants <- plants_plt_base_org[!plants_plt_base_org$name %in% plants_plt_base$name,]
     plants_plt_base_add <- bind_rows(plants_plt_base, select(missing_plants, any_of(names(plants_plt_base))))
   } else {
-    plants_plt_base <- plants_plt_base
+    plants_plt_base_add <- plants_plt_base
   }
   if (file.exists(paste0(path,"/plants.plt"))) file.remove(paste0(path,"/plants.plt"))
-  write_tbl(plants_plt_base, paste0(path, '/plants.plt'), fmt = plants_plt_fmt)
+  write_tbl(plants_plt_base_add, paste0(path, '/plants.plt'), fmt = plants_plt_fmt)
   ## Updating file.cio file
   file_cio <- readLines(paste0(path, "/file.cio"))
   if(!grepl("calibration.cal", file_cio[22], fixed = TRUE)){

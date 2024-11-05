@@ -9,9 +9,9 @@ source('functions.R')
 
 ##Settings
 swat_exe <- "Rev_61_0_64rel.exe"
-folders <- list.dirs("Models", full.names = TRUE, recursive = FALSE)
-folders <- folders[!folders %in% c("Models/CS8")]
-plants_plt_base <- read_tbl(paste0("Models/plants.plt"))
+folders <- list.dirs("Data/Models", full.names = TRUE, recursive = FALSE)
+folders <- folders[!folders %in% c("Data/Models/CS8")]
+plants_plt_base <- read_tbl(paste0("Data/Models/plants.plt"))
 
 
 ## 1) Prepare setups for plants.plt base run
