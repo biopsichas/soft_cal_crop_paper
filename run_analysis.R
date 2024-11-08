@@ -1,3 +1,7 @@
+##==============================================================================
+## Load libraries and functions
+##==============================================================================
+## Load libraries
 library(SWATtunR)
 library(doParallel)
 library(foreach)
@@ -5,48 +9,113 @@ library(R.utils)
 library(tidyverse)
 library(stringr)
 library(purrr)
+library(RColorBrewer)
+library(tidytext)
+library(sf)
+library(treemapify)
+## install_github("wilkox/treemapify")
+## Load custom functions
 source('functions.R')
 
-##Settings
+##==============================================================================
+## Define your settings (user input)
+##==============================================================================
+
+## SWAT+ executable to be used. Should be in the path_to_mod folder
 swat_exe <- "Rev_61_0_64rel.exe"
-folders <- list.dirs("Data/Models", full.names = TRUE, recursive = FALSE)
-folders <- folders[!folders %in% c("Data/Models/CS8")]
-plants_plt_base <- read_tbl(paste0("Data/Models/plants.plt"))
 
+## Path to the folder containing the models of case studies, plants.plt base file
+## and and swat executable
+path_to_mod <- "Data/Models"
 
-## 1) Prepare setups for plants.plt base run
-walk(folders, ~prepare_plants_base(.x))
+## Path to the folder where the results will be stored
+results_folder <- "Temp"
+## Names of soft-cal and base folders and how results will be named.
+base_pth <- "initial"
+sc_path <- "soft-cal"
 
-## 2) Run models for the base plants.plt
-run_models(folders, swat_exe)
+## Case studies to exclude from the analysis
+cs_to_exclude <- "CS8" #Multiple CS could be excluded as well "CS8|CS4".
+##  To include all case studies, set to NULL
 
-## 3) Extract results
-res <- get_results(folders, "initial")
+## Paths to the shapes and csvs (with case studies management info)
+path_shapes <- "Data/Shapes_CVSs"
+## Paths to observed yield data
+path_yield_csvs<- "Data/Obs_yields"
 
-## 4) Update models for soft-cal runs
-walk(folders, ~file.copy(from = paste0(.x,"/plants.plt.bkp99"), to = paste0(.x, "/plants.plt"), overwrite = TRUE))
+## Settings to be changed by the user (applied to all the plots)
+## Crop selection
+crops_sel <- c("wwht", "wbar", "swht", "fesc", "corn", "canp", "barl", "alfa")
 
-## 5) Run models for the soft-cal plants.plt
-run_models(folders, swat_exe)
+## Lookup to the CS info in the figure
+lookup <- data.frame(cs_name = c("CS1", "CS2", "CS3", "CS4", "CS7", "CS8",
+                                 "CS9", "CS10", "CS11", "CS12"),
+                     cs_label = c("DE", "CH", "HU1", "PL",
+                                  "BE", "LT", "IT", "NO",
+                                  "HU2", "CZ"))
 
-## 6) Extract results and combine with base run results
-res_final <- bind_rows(res, get_results(folders, "soft-cal"))
+## Order of the case studies in the plots
+order_cs <- c("DE", "CH", "HU1", "PL", "BE", "LT", "IT", "NO", "HU2", "CZ")
 
-## 7) Plot the results
-res_final$cs <- factor(res_final$cs, levels = c("CS1", "CS2", "CS3", "CS4", "CS7", #"CS8",
-                                                     "CS9", "CS10", "CS11", "CS12"), ordered = TRUE)
+## NO USER INPUT BELOW THIS LINE!!!
 
-res_wb <- res_final %>% filter (variables %in% c("cn", "ecanopy","eplant","esoil", "et", "latq", "perc", "qtile", "surq_gen", "sw", "sw_300", "wateryld"))
-res_wq <- res_final %>% filter (variables %in% c("N_loss", "N_loss_ratio", "P_loss", "P_loss_ratio", "Sed_loss"))
+##==============================================================================
+## 1) Prepare base directory to run analysis
+##==============================================================================
 
-ggplot(res_wb, aes(x = cs, y = values, color = status, shape = status))+
-  geom_point()+
-  facet_wrap(~variables, nrow = 4, scales = "free") +
-  theme_bw() +
-  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+## Reading folders, excluding case studies (if needed)
+folders <- list.dirs(path_to_mod, full.names = TRUE, recursive = FALSE)
+if(!is.null(cs_to_exclude)) folders <-  folders[!grepl(cs_to_exclude, folders)]
 
-ggplot(res_wq, aes(x = cs, y = values, color = status, shape = status))+
-  geom_point()+
-  facet_wrap(~variables, nrow = 4, scales = "free") +
-  theme_bw() +
-  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+## Delete existing results folder (if you need!!!)
+if (file.exists(results_folder)) unlink(results_folder, recursive = TRUE)
+
+## Coping base files to the results folder
+dir.create(paste(results_folder, base_pth, sep = "/"), recursive = TRUE)
+file.copy(folders, paste(results_folder, base_pth, sep = "/"), recursive=TRUE)
+
+##==============================================================================
+## 2) Prepare plants.plt for base (initial) run analysis
+##==============================================================================
+
+## Read plants.plt base file (one for all case studies)
+plants_plt_base <- read_tbl("Data/plants.plt")
+
+## List all directories in the base folder
+f_ini <- list.dirs(paste(results_folder, base_pth, sep = "/"),
+                   full.names = TRUE, recursive = FALSE)
+
+## Prepare setups for plants.plt base run. This will create plants.plt files for
+## each case study. Base plants.plt file will be merged with plants.plt.bkp0 files
+## in the case study folders. Only plants missing in the base file will be added.
+walk(f_ini, ~prepare_plants_base(.x))
+
+##==============================================================================
+## 3) Prepare models for soft-calibrated runs
+##==============================================================================
+
+## Create directory and copy folders
+R.utils::copyDirectory(paste(results_folder, base_pth, sep = "/"),
+                       paste(results_folder, sc_path, sep = "/"))
+
+## Overwrite plants.plt files in the case study folders with the soft-calibrated
+## plants.plt files, which are saved as with the extension .bkp99
+f_sc <- gsub(base_pth, sc_path, f_ini)
+walk(f_sc, ~file.copy(from = paste0(.x,"/plants.plt.bkp99"),
+                         to = paste0(.x, "/plants.plt"), overwrite = TRUE))
+
+##==============================================================================
+## 4) Run all the models
+##==============================================================================
+
+c(f_ini, f_sc) %>% run_models(swat_exe)
+
+##==============================================================================
+## Continue with the rest of the scripts (don't loose the results in environment)
+##==============================================================================
+## Save environment (just in case ;)
+save.image("Temp/Env.RData")
+
+##==============================================================================
+source('fg1_output_difference.R')
+

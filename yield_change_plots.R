@@ -19,8 +19,8 @@ for(f in yield_csvs){
 }
 
 mod_yld <- NULL
-folders <- list.dirs("Models", full.names = TRUE, recursive = FALSE)
-folders <- folders[!folders %in% c("Models/CS8")]
+folders <- list.dirs("Data/Models", full.names = TRUE, recursive = FALSE)
+folders <- folders[!folders %in% c("Data/Models/CS8")]
 for(f in folders){
   crop <- SWATtunR:::read_tbl(paste0(f, "/basin_crop_yld_aa.txt")) %>%
     select(plant_name,`yld(t/ha)`) %>%
@@ -40,10 +40,8 @@ y %>% unique %>%
   count
 
 swat_exe <- "Rev_61_0_64rel.exe"
-plants_plt_base <- read_tbl(paste0("Models/plants.plt"))
-folders
-prepare_plants_base("Models/CS8")
-debug(prepare_plants_base)
+plants_plt_base <- read_tbl(paste0("Data/Models/plants.plt"))
+
 ## 1) Prepare setups for plants.plt base run
 walk("Models/CS8", ~prepare_plants_base(.x))
 ## 2) Run models for the base plants.plt

@@ -27,7 +27,7 @@ run_models <- function(paths, swat_exe){
   cl <- makeCluster(cores,  outfile="")
   registerDoParallel(cl)
   ## Run model runs
-  foreach(f = paths, .packages = c("stringr")) %dopar% {exe_copy_run("Data/Models", f, swat_exe)}
+  foreach(f = paths, .packages = c("stringr")) %dopar% {exe_copy_run("Data", f, swat_exe)}
   ##Clean clusters after
   stopCluster(cl)
   return(cat("Done!"))

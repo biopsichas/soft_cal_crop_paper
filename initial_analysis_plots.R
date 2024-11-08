@@ -5,18 +5,17 @@ library(stringr)
 library(treemapify)
 library(RColorBrewer)
 library(tidytext)
-
-library(devtools)
-install_github("wilkox/treemapify")
-library(treemapify)
-install.packages("tidytext")
+# library(devtools)
+# install_github("wilkox/treemapify")
+# library(treemapify)
+# install.packages("tidytext")
 
 ## Settings
 ## =============================================================================
 ## Paths to the shapes and csvs
-path_shapes <- "Shapes_CVSs"
+path_shapes <- "Data/Shapes_CVSs"
 ## Paths to the models
-paths_models <- "Models"
+paths_models <- "Data/Models"
 ## Crop selection
 crops_sel <- c("wwht", "wbar", "swht", "fesc", "corn", "canp", "barl", "alfa")
 ## Lookup to the CS info in the figure
@@ -99,7 +98,7 @@ df_mgt_link <- df_mgt %>%
 df_mgt_link[df_mgt_link$cs_name %in% c("CS3b", "CS11") & df_mgt_link$lu== "meadow", "lu"] <- "pasture"
 
 ## Reading base plant.plt
-plants_base <- read_tbl("plants.plt") %>%
+plants_base <- read_tbl("Data/Models/plants.plt") %>%
   select(-description) %>%
   filter(name %in% unique(df_mgt_link$op_data1)) %>%
   select(name, tmp_base, days_mat, lai_pot, harv_idx, bm_e) %>%
@@ -111,13 +110,18 @@ plants_base$name <- factor(plants_base$name, levels = crops_sel, ordered = TRUE)
 ## Reading calibrated plants.plt for all the case studies
 plants_df <- NULL
 for(f in folders_plants){
-  plants <- read_tbl(paste0(f, "/plants.plt"))
+  plants <- read_tbl(paste0(f, "/plants.plt.bkp99"))
   plants$cs_name <- basename(f)
   if("wnd_live" %in% names(plants)){
     plants <- dplyr::rename(plants, aeration = wnd_live)
   }
-  if(is.null(plants_df)) plants_df <- plants else
-    plants_df <- bind_rows(plants_df, plants %>% select(any_of(names(plants_df))))
+  if(is.null(plants_df)){
+    plants_df <- plants
+  } else {
+    plants_add <- select(plants, any_of(names(plants_df))) %>%
+      map2_df(map(select(plants_df, any_of(names(plants))), class), ~{class(.x) <- .y;.x})
+    plants_df <- bind_rows(plants_df, plants_add)
+  }
 }
 
 ## Cleaning up the data frame
