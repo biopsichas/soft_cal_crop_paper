@@ -295,3 +295,17 @@ hru_aa_nb <- function(path, basin = TRUE){
     return(hru_ls)
   }
 }
+
+## Read yield results from model setups
+read_yields <- function(folders){
+  yld <- NULL
+  for(f in folders){
+    crop <- SWATtunR:::read_tbl(paste0(f, "/basin_crop_yld_aa.txt")) %>%
+      select(plant_name,`harv_area(ha)`, `yld(t/ha)`) %>%
+      rename(yield_mod = `yld(t/ha)`)
+    crop$cs_name <- basename(f)
+    crop$type <- str_extract(f, paste0('(?<=', results_folder, '/)[^/]+'))
+    if(is.null(yld)) yld <- crop else yld <- bind_rows(yld, crop)
+  }
+  return(yld)
+}

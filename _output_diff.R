@@ -62,7 +62,7 @@ fig2
 ##==============================================================================
 
 fig_path <- paste(results_folder, "figs", sep = "/")
-if (file.exists(fig_path)) dir.create(fig_path)
+if (!file.exists(fig_path)) dir.create(fig_path)
 
 ggsave(paste(fig_path, "fg1_water_balance.png", sep = "/"), plot = fig1,
        width = 1000, height = 700, units = "px", dpi = 100)

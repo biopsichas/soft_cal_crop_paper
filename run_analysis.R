@@ -13,6 +13,7 @@ library(RColorBrewer)
 library(tidytext)
 library(sf)
 library(treemapify)
+library(openxlsx)
 ## install_github("wilkox/treemapify")
 ## Load custom functions
 source('functions.R')
@@ -109,13 +110,26 @@ walk(f_sc, ~file.copy(from = paste0(.x,"/plants.plt.bkp99"),
 ##==============================================================================
 
 c(f_ini, f_sc) %>% run_models(swat_exe)
-
-##==============================================================================
-## Continue with the rest of the scripts (don't loose the results in environment)
-##==============================================================================
 ## Save environment (just in case ;)
 save.image("Temp/Env.RData")
 
 ##==============================================================================
-source('fg1_output_difference.R')
+## 5) Generate the figures (you can run this with each separate script)
+##==============================================================================
+
+## Results will be saved in
+print(paste("Please find the results in", paste(results_folder, "figs", sep = "/")))
+
+## a) Plot the difference between the initial and soft-calibrated models
+source('_output_difference.R')
+
+## b) Plot the parameter changes
+source('_par_move.R')
+
+## c) Plot the yield changes
+source('_yield_change.R')
+
+## d) Plot the crop area
+source('_crop_area.R')
+
 
