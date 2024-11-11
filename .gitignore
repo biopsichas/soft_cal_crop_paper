@@ -8,9 +8,9 @@ figs/
 *.sqlite
 *.out
 *.exe
-!Data/Models/*.exe
+!Data/*.exe
 plants.plt
-!Data/Models/plants.plt
+!Data/plants.plt
 **/SWIFT/
 success.fin
 *.txt
