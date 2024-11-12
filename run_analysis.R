@@ -121,7 +121,7 @@ save.image("Temp/Env.RData")
 print(paste("Please find the results in", paste(results_folder, "figs", sep = "/")))
 
 ## a) Plot the difference between the initial and soft-calibrated models
-source('_output_difference.R')
+source('_output_diff.R')
 
 ## b) Plot the parameter changes
 source('_par_move.R')
