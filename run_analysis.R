@@ -14,6 +14,7 @@ library(tidytext)
 library(sf)
 library(treemapify)
 library(openxlsx)
+library(data.table)
 ## install_github("wilkox/treemapify")
 ## Load custom functions
 source('functions.R')
