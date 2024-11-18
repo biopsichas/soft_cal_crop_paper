@@ -9,8 +9,6 @@ figs/
 *.out
 *.exe
 !Data/*.exe
-plants.plt
-!Data/plants.plt
 **/SWIFT/
 success.fin
 *.txt

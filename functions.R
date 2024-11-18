@@ -56,8 +56,8 @@ get_results <- function(paths, run_name, basin = TRUE){
 
 ## Preparation of plants.plt base run
 prepare_plants_base <- function(path){
+  copy_file_version(path, '/plants.plt', file_version = 99)
   plants_plt_fmt <- c('%-12s', '%-18s', '%-12s', rep('%12.5f', ncol(plants_plt_base) - 4), '%-40s')
-  if (!file.exists(paste0(path,"/plants.plt.bkp99"))) copy_file_version(path, '/plants.plt', file_version = 99)
   if (file.exists(paste0(path,"/plants.plt.bkp0"))) {
     plants_plt_base_org <- read_tbl(paste0(path,"/plants.plt.bkp0"))
     colnames(plants_plt_base_org) <- tolower(names(plants_plt_base_org)) ##In case somebody has Upper cases
