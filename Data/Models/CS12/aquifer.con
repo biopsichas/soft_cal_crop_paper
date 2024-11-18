@@ -1,3 +1,3 @@
-aquifer.con: rewritten by SWATprepR R package 2024-03-18 08:29:29 for SWAT+ rev.60.5.4
+aquifer.con: rewritten by SWATprepR R package 2024-08-29 12:40:35 for SWAT+ rev.60.5.4
       id  name                gis_id          area           lat           lon          elev       aqu               wst       cst      ovfl      rule   out_tot
-       1  aqu1                     0    7176.51750      49.63416      15.03479     492.88917         1     s49616n15078e         0         0         0         0
+       1  aqu1                     0    7176.51750      49.63416      15.03479     492.88917         1     s49638n15021e         0         0         0         0

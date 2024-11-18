@@ -1,18 +1,18 @@
 tillage.til: written by SWAT+ editor v2.1.0 on 2023-05-02 16:02 for SWAT+ rev.60.5.4
 name                   mix_eff        mix_dp         rough      ridge_ht      ridge_sp  description
-fallplow               0.95000     150.00000      75.00000       0.00000       0.00000  genericfallplowingoperation
+fallplow               0.95000     300.00000      75.00000       0.00000       0.00000  genericfallplowingoperation
 sprgplow               0.50000     125.00000      50.00000       0.00000       0.00000  genericspringplowingoperation
 constill               0.25000     100.00000      40.00000       0.00000       0.00000  genericconservationtillage
 zerotill               0.05000      25.00000      10.00000       0.00000       0.00000  genericno-tillmixing
 duckftc                0.55000     100.00000      15.00000       0.00000       0.00000  duckfootcultivator
-fldcult                0.30000     100.00000      20.00000       0.00000       0.00000  fieldcultivator
+fldcult                0.30000     250.00000      20.00000       0.00000       0.00000  fieldcultivator
 furowout               0.75000      25.00000      15.00000       0.00000       0.00000  furrow-outcultivator
 marker                 0.45000     100.00000      15.00000       0.00000       0.00000  marker(cultivator)
 rollcult               0.50000      25.00000      15.00000       0.00000       0.00000  rollingcultivator
 rowcult                0.25000      25.00000      15.00000       0.00000       0.00000  rowcultivator
-discovat               0.50000      25.00000      15.00000       0.00000       0.00000  discovator
+discovat               0.50000      75.00000      15.00000       0.00000       0.00000  discovator
 leveler                0.50000      25.00000      15.00000       0.00000       0.00000  leveler
-harrow                 0.20000      25.00000      10.00000       0.00000       0.00000  harrow(tines)
+harrow                 0.20000     100.00000      10.00000       0.00000       0.00000  harrow(tines)
 culmulch               0.25000      25.00000       5.00000       0.00000       0.00000  culti-mulchroller
 culpkpul               0.35000      40.00000       5.00000       0.00000       0.00000  culti-packerpulverizer
 landlevl               0.50000      75.00000      15.00000       0.00000       0.00000  landplane-leveler
@@ -63,7 +63,7 @@ bedrollr               0.25000      50.00000       5.00000       0.00000       0
 bedderd                0.55000     150.00000      35.00000       0.00000       0.00000  bedder(disk)
 beddhipr               0.65000     150.00000      35.00000       0.00000       0.00000  bedderdisk-hipper
 beddkrow               0.85000     100.00000      40.00000       0.00000       0.00000  bedderdisk-row
-bedders                0.55000     150.00000      30.00000       0.00000       0.00000  beddershaper
+bedders                0.55000     200.00000      30.00000       0.00000       0.00000  beddershaper
 dskbrmkr               0.55000     150.00000      20.00000       0.00000       0.00000  diskbordermaker
 dkchmtil               0.55000     150.00000      25.00000       0.00000       0.00000  diskchisel(mulchtiller)
 offsethv               0.70000     100.00000      50.00000       0.00000       0.00000  offsetdis/heavduty

@@ -1,4 +1,4 @@
-hru-data.hru: written by SWAT+ editor v2.1.0 on 2023-05-02 16:02 for SWAT+ rev.60.5.4 and edited with SWATfarmR 2.0.5 on 2024-03-18 16:28:27
+hru-data.hru: written by SWAT+ editor v2.1.0 on 2023-05-02 16:02 for SWAT+ rev.60.5.4 and edited with SWATfarmR 2.0.5 on 2024-10-17 15:47:59
       id  name                          topo             hydro              soil            lu_mgt   soil_plant_init         surf_stor              snow             field
        1  hru0001                topohru0001           hyd0001             HPJ29    field_1040_lum      spla_hru0001              null           snow001              null
        2  hru0002                topohru0002           hyd0002             HPJ47  fld_1041_drn_lum      spla_hru0002              null           snow001              null
@@ -403,10 +403,10 @@ hru-data.hru: written by SWAT+ editor v2.1.0 on 2023-05-02 16:02 for SWAT+ rev.6
      401  hru0401                topohru0401           hyd0401             HPJ29     field_641_lum      spla_hru0401              null           snow001              null
      402  hru0402                topohru0402           hyd0402             HPJ29   fld_642_drn_lum      spla_hru0402              null           snow001              null
      403  hru0403                topohru0403           hyd0403             HPJ47   fld_643_drn_lum      spla_hru0403              null           snow001              null
-     404  hru0404                topohru0404           hyd0404             HPJ29          rnge_lum      spla_hru0404              null           snow001              null
+     404  hru0404                topohru0404           hyd0404             HPJ29        rnge_1_lum      spla_hru0404              null           snow001              null
      405  hru0405                topohru0405           hyd0405             HPJ29     field_635_lum      spla_hru0405              null           snow001              null
      406  hru0406                topohru0406           hyd0406             HPJ47      rnge_drn_lum      spla_hru0406              null           snow001              null
-     407  hru0407                topohru0407           hyd0407             HPJ29          rnge_lum      spla_hru0407              null           snow001              null
+     407  hru0407                topohru0407           hyd0407             HPJ29        rnge_2_lum      spla_hru0407              null           snow001              null
      408  hru0408                topohru0408           hyd0408             HPJ29     field_638_lum      spla_hru0408              null           snow001              null
      409  hru0409                topohru0409           hyd0409             HPJ47      rnge_drn_lum      spla_hru0409              null           snow001              null
      410  hru0410                topohru0410           hyd0410             HPJ50     field_629_lum      spla_hru0410              null           snow001              null
@@ -1163,10 +1163,10 @@ hru-data.hru: written by SWAT+ editor v2.1.0 on 2023-05-02 16:02 for SWAT+ rev.6
     1161  hru1161                topohru1161           hyd1161             HPJF2          frst_lum      spla_hru1161              null           snow001              null
     1162  hru1162                topohru1162           hyd1162             HPJF2          frst_lum      spla_hru1162              null           snow001              null
     1163  hru1163                topohru1163           hyd1163             HPJF2          frst_lum      spla_hru1163              null           snow001              null
-    1164  hru1164                topohru1164           hyd1164             HPJ29          past_lum      spla_hru1164              null           snow001              null
-    1165  hru1165                topohru1165           hyd1165             HPJ29          past_lum      spla_hru1165              null           snow001              null
-    1166  hru1166                topohru1166           hyd1166             HPJ29          past_lum      spla_hru1166              null           snow001              null
-    1167  hru1167                topohru1167           hyd1167             HPJ29          past_lum      spla_hru1167              null           snow001              null
+    1164  hru1164                topohru1164           hyd1164             HPJ29        past_1_lum      spla_hru1164              null           snow001              null
+    1165  hru1165                topohru1165           hyd1165             HPJ29        past_2_lum      spla_hru1165              null           snow001              null
+    1166  hru1166                topohru1166           hyd1166             HPJ29        past_3_lum      spla_hru1166              null           snow001              null
+    1167  hru1167                topohru1167           hyd1167             HPJ29        past_4_lum      spla_hru1167              null           snow001              null
     1168  hru1168                topohru1168           hyd1168             HPJ68          rngb_lum      spla_hru1168              null           snow001              null
     1169  hru1169                topohru1169           hyd1169             HPJ68          rngb_lum      spla_hru1169              null           snow001              null
     1170  hru1170                topohru1170           hyd1170             HPJ50      rngb_drn_lum      spla_hru1170              null           snow001              null
@@ -1303,452 +1303,452 @@ hru-data.hru: written by SWAT+ editor v2.1.0 on 2023-05-02 16:02 for SWAT+ rev.6
     1301  hru1301                topohru1301           hyd1301             HPJ68          rngb_lum      spla_hru1301              null           snow001              null
     1302  hru1302                topohru1302           hyd1302             HPJ29      rngb_drn_lum      spla_hru1302              null           snow001              null
     1303  hru1303                topohru1303           hyd1303             HPJ29      rngb_drn_lum      spla_hru1303              null           snow001              null
-    1304  hru1304                topohru1304           hyd1304             HPJ37          rnge_lum      spla_hru1304              null           snow001              null
-    1305  hru1305                topohru1305           hyd1305             HPJ29          rnge_lum      spla_hru1305              null           snow001              null
-    1306  hru1306                topohru1306           hyd1306             HPJ29          rnge_lum      spla_hru1306              null           snow001              null
-    1307  hru1307                topohru1307           hyd1307             HPJ67          rnge_lum      spla_hru1307              null           snow001              null
-    1308  hru1308                topohru1308           hyd1308             HPJ67          rnge_lum      spla_hru1308              null           snow001              null
-    1309  hru1309                topohru1309           hyd1309             HPJ67          rnge_lum      spla_hru1309              null           snow001              null
-    1310  hru1310                topohru1310           hyd1310             HPJ67          rnge_lum      spla_hru1310              null           snow001              null
-    1311  hru1311                topohru1311           hyd1311             HPJ40          rnge_lum      spla_hru1311              null           snow001              null
-    1312  hru1312                topohru1312           hyd1312             HPJ32          rnge_lum      spla_hru1312              null           snow001              null
+    1304  hru1304                topohru1304           hyd1304             HPJ37        rnge_3_lum      spla_hru1304              null           snow001              null
+    1305  hru1305                topohru1305           hyd1305             HPJ29        rnge_4_lum      spla_hru1305              null           snow001              null
+    1306  hru1306                topohru1306           hyd1306             HPJ29        rnge_5_lum      spla_hru1306              null           snow001              null
+    1307  hru1307                topohru1307           hyd1307             HPJ67        rnge_6_lum      spla_hru1307              null           snow001              null
+    1308  hru1308                topohru1308           hyd1308             HPJ67        rnge_7_lum      spla_hru1308              null           snow001              null
+    1309  hru1309                topohru1309           hyd1309             HPJ67        rnge_8_lum      spla_hru1309              null           snow001              null
+    1310  hru1310                topohru1310           hyd1310             HPJ67        rnge_9_lum      spla_hru1310              null           snow001              null
+    1311  hru1311                topohru1311           hyd1311             HPJ40       rnge_10_lum      spla_hru1311              null           snow001              null
+    1312  hru1312                topohru1312           hyd1312             HPJ32       rnge_11_lum      spla_hru1312              null           snow001              null
     1313  hru1313                topohru1313           hyd1313             HPJ67      rnge_drn_lum      spla_hru1313              null           snow001              null
     1314  hru1314                topohru1314           hyd1314             HPJ67      rnge_drn_lum      spla_hru1314              null           snow001              null
     1315  hru1315                topohru1315           hyd1315             HPJ67      rnge_drn_lum      spla_hru1315              null           snow001              null
     1316  hru1316                topohru1316           hyd1316             HPJ67      rnge_drn_lum      spla_hru1316              null           snow001              null
-    1317  hru1317                topohru1317           hyd1317             HPJ29          rnge_lum      spla_hru1317              null           snow001              null
-    1318  hru1318                topohru1318           hyd1318             HPJ68          rnge_lum      spla_hru1318              null           snow001              null
+    1317  hru1317                topohru1317           hyd1317             HPJ29       rnge_12_lum      spla_hru1317              null           snow001              null
+    1318  hru1318                topohru1318           hyd1318             HPJ68       rnge_13_lum      spla_hru1318              null           snow001              null
     1319  hru1319                topohru1319           hyd1319             HPJ68      rnge_drn_lum      spla_hru1319              null           snow001              null
-    1320  hru1320                topohru1320           hyd1320             HPJ67          rnge_lum      spla_hru1320              null           snow001              null
-    1321  hru1321                topohru1321           hyd1321             HPJ67          rnge_lum      spla_hru1321              null           snow001              null
-    1322  hru1322                topohru1322           hyd1322             HPJ29          rnge_lum      spla_hru1322              null           snow001              null
-    1323  hru1323                topohru1323           hyd1323             HPJ29          rnge_lum      spla_hru1323              null           snow001              null
-    1324  hru1324                topohru1324           hyd1324             HPJ29          rnge_lum      spla_hru1324              null           snow001              null
-    1325  hru1325                topohru1325           hyd1325             HPJ67          rnge_lum      spla_hru1325              null           snow001              null
-    1326  hru1326                topohru1326           hyd1326             HPJ67          rnge_lum      spla_hru1326              null           snow001              null
-    1327  hru1327                topohru1327           hyd1327             HPJ67          rnge_lum      spla_hru1327              null           snow001              null
-    1328  hru1328                topohru1328           hyd1328             HPJ67          rnge_lum      spla_hru1328              null           snow001              null
+    1320  hru1320                topohru1320           hyd1320             HPJ67       rnge_14_lum      spla_hru1320              null           snow001              null
+    1321  hru1321                topohru1321           hyd1321             HPJ67       rnge_15_lum      spla_hru1321              null           snow001              null
+    1322  hru1322                topohru1322           hyd1322             HPJ29       rnge_16_lum      spla_hru1322              null           snow001              null
+    1323  hru1323                topohru1323           hyd1323             HPJ29       rnge_17_lum      spla_hru1323              null           snow001              null
+    1324  hru1324                topohru1324           hyd1324             HPJ29       rnge_18_lum      spla_hru1324              null           snow001              null
+    1325  hru1325                topohru1325           hyd1325             HPJ67       rnge_19_lum      spla_hru1325              null           snow001              null
+    1326  hru1326                topohru1326           hyd1326             HPJ67       rnge_20_lum      spla_hru1326              null           snow001              null
+    1327  hru1327                topohru1327           hyd1327             HPJ67       rnge_21_lum      spla_hru1327              null           snow001              null
+    1328  hru1328                topohru1328           hyd1328             HPJ67       rnge_22_lum      spla_hru1328              null           snow001              null
     1329  hru1329                topohru1329           hyd1329             HPJ67      rnge_drn_lum      spla_hru1329              null           snow001              null
     1330  hru1330                topohru1330           hyd1330             HPJ67      rnge_drn_lum      spla_hru1330              null           snow001              null
     1331  hru1331                topohru1331           hyd1331             HPJ67      rnge_drn_lum      spla_hru1331              null           snow001              null
     1332  hru1332                topohru1332           hyd1332             HPJ67      rnge_drn_lum      spla_hru1332              null           snow001              null
-    1333  hru1333                topohru1333           hyd1333             HPJ68          rnge_lum      spla_hru1333              null           snow001              null
-    1334  hru1334                topohru1334           hyd1334             HPJ29          rnge_lum      spla_hru1334              null           snow001              null
-    1335  hru1335                topohru1335           hyd1335             HPJ50          rnge_lum      spla_hru1335              null           snow001              null
+    1333  hru1333                topohru1333           hyd1333             HPJ68       rnge_23_lum      spla_hru1333              null           snow001              null
+    1334  hru1334                topohru1334           hyd1334             HPJ29       rnge_24_lum      spla_hru1334              null           snow001              null
+    1335  hru1335                topohru1335           hyd1335             HPJ50       rnge_25_lum      spla_hru1335              null           snow001              null
     1336  hru1336                topohru1336           hyd1336             HPJ50      rnge_drn_lum      spla_hru1336              null           snow001              null
-    1337  hru1337                topohru1337           hyd1337             HPJ29          rnge_lum      spla_hru1337              null           snow001              null
-    1338  hru1338                topohru1338           hyd1338             HPJ29          rnge_lum      spla_hru1338              null           snow001              null
+    1337  hru1337                topohru1337           hyd1337             HPJ29       rnge_26_lum      spla_hru1337              null           snow001              null
+    1338  hru1338                topohru1338           hyd1338             HPJ29       rnge_27_lum      spla_hru1338              null           snow001              null
     1339  hru1339                topohru1339           hyd1339             HPJ47      rnge_drn_lum      spla_hru1339              null           snow001              null
-    1340  hru1340                topohru1340           hyd1340             HPJ29          rnge_lum      spla_hru1340              null           snow001              null
+    1340  hru1340                topohru1340           hyd1340             HPJ29       rnge_28_lum      spla_hru1340              null           snow001              null
     1341  hru1341                topohru1341           hyd1341             HPJ64      rnge_drn_lum      spla_hru1341              null           snow001              null
-    1342  hru1342                topohru1342           hyd1342             HPJ29          rnge_lum      spla_hru1342              null           snow001              null
-    1343  hru1343                topohru1343           hyd1343             HPJ29          rnge_lum      spla_hru1343              null           snow001              null
+    1342  hru1342                topohru1342           hyd1342             HPJ29       rnge_29_lum      spla_hru1342              null           snow001              null
+    1343  hru1343                topohru1343           hyd1343             HPJ29       rnge_30_lum      spla_hru1343              null           snow001              null
     1344  hru1344                topohru1344           hyd1344             HPJ47      rnge_drn_lum      spla_hru1344              null           snow001              null
-    1345  hru1345                topohru1345           hyd1345             HPJ68          rnge_lum      spla_hru1345              null           snow001              null
-    1346  hru1346                topohru1346           hyd1346             HPJ29          rnge_lum      spla_hru1346              null           snow001              null
+    1345  hru1345                topohru1345           hyd1345             HPJ68       rnge_31_lum      spla_hru1345              null           snow001              null
+    1346  hru1346                topohru1346           hyd1346             HPJ29       rnge_32_lum      spla_hru1346              null           snow001              null
     1347  hru1347                topohru1347           hyd1347             HPJ29      rnge_drn_lum      spla_hru1347              null           snow001              null
-    1348  hru1348                topohru1348           hyd1348             HPJ29          rnge_lum      spla_hru1348              null           snow001              null
-    1349  hru1349                topohru1349           hyd1349             HPJF3          rnge_lum      spla_hru1349              null           snow001              null
+    1348  hru1348                topohru1348           hyd1348             HPJ29       rnge_33_lum      spla_hru1348              null           snow001              null
+    1349  hru1349                topohru1349           hyd1349             HPJF3       rnge_34_lum      spla_hru1349              null           snow001              null
     1350  hru1350                topohru1350           hyd1350             HPJ29      rnge_drn_lum      spla_hru1350              null           snow001              null
-    1351  hru1351                topohru1351           hyd1351             HPJ29          rnge_lum      spla_hru1351              null           snow001              null
+    1351  hru1351                topohru1351           hyd1351             HPJ29       rnge_35_lum      spla_hru1351              null           snow001              null
     1352  hru1352                topohru1352           hyd1352             HPJ50      rnge_drn_lum      spla_hru1352              null           snow001              null
-    1353  hru1353                topohru1353           hyd1353             HPJ29          rnge_lum      spla_hru1353              null           snow001              null
-    1354  hru1354                topohru1354           hyd1354             HPJ29          rnge_lum      spla_hru1354              null           snow001              null
-    1355  hru1355                topohru1355           hyd1355             HPJ29          rnge_lum      spla_hru1355              null           snow001              null
+    1353  hru1353                topohru1353           hyd1353             HPJ29       rnge_36_lum      spla_hru1353              null           snow001              null
+    1354  hru1354                topohru1354           hyd1354             HPJ29       rnge_37_lum      spla_hru1354              null           snow001              null
+    1355  hru1355                topohru1355           hyd1355             HPJ29       rnge_38_lum      spla_hru1355              null           snow001              null
     1356  hru1356                topohru1356           hyd1356             HPJ64      rnge_drn_lum      spla_hru1356              null           snow001              null
     1357  hru1357                topohru1357           hyd1357             HPJ50      rnge_drn_lum      spla_hru1357              null           snow001              null
-    1358  hru1358                topohru1358           hyd1358             HPJ50          rnge_lum      spla_hru1358              null           snow001              null
-    1359  hru1359                topohru1359           hyd1359             HPJ50          rnge_lum      spla_hru1359              null           snow001              null
-    1360  hru1360                topohru1360           hyd1360             HPJ50          rnge_lum      spla_hru1360              null           snow001              null
+    1358  hru1358                topohru1358           hyd1358             HPJ50       rnge_39_lum      spla_hru1358              null           snow001              null
+    1359  hru1359                topohru1359           hyd1359             HPJ50       rnge_40_lum      spla_hru1359              null           snow001              null
+    1360  hru1360                topohru1360           hyd1360             HPJ50       rnge_41_lum      spla_hru1360              null           snow001              null
     1361  hru1361                topohru1361           hyd1361             HPJ50      rnge_drn_lum      spla_hru1361              null           snow001              null
-    1362  hru1362                topohru1362           hyd1362             HPJ68          rnge_lum      spla_hru1362              null           snow001              null
-    1363  hru1363                topohru1363           hyd1363             HPJ68          rnge_lum      spla_hru1363              null           snow001              null
-    1364  hru1364                topohru1364           hyd1364             HPJ29          rnge_lum      spla_hru1364              null           snow001              null
-    1365  hru1365                topohru1365           hyd1365             HPJ68          rnge_lum      spla_hru1365              null           snow001              null
-    1366  hru1366                topohru1366           hyd1366             HPJ50          rnge_lum      spla_hru1366              null           snow001              null
+    1362  hru1362                topohru1362           hyd1362             HPJ68       rnge_42_lum      spla_hru1362              null           snow001              null
+    1363  hru1363                topohru1363           hyd1363             HPJ68       rnge_43_lum      spla_hru1363              null           snow001              null
+    1364  hru1364                topohru1364           hyd1364             HPJ29       rnge_44_lum      spla_hru1364              null           snow001              null
+    1365  hru1365                topohru1365           hyd1365             HPJ68       rnge_45_lum      spla_hru1365              null           snow001              null
+    1366  hru1366                topohru1366           hyd1366             HPJ50       rnge_46_lum      spla_hru1366              null           snow001              null
     1367  hru1367                topohru1367           hyd1367             HPJ68      rnge_drn_lum      spla_hru1367              null           snow001              null
     1368  hru1368                topohru1368           hyd1368             HPJ68      rnge_drn_lum      spla_hru1368              null           snow001              null
     1369  hru1369                topohru1369           hyd1369             HPJ68      rnge_drn_lum      spla_hru1369              null           snow001              null
     1370  hru1370                topohru1370           hyd1370             HPJ68      rnge_drn_lum      spla_hru1370              null           snow001              null
     1371  hru1371                topohru1371           hyd1371             HPJ50      rnge_drn_lum      spla_hru1371              null           snow001              null
-    1372  hru1372                topohru1372           hyd1372             HPJ34          rnge_lum      spla_hru1372              null           snow001              null
-    1373  hru1373                topohru1373           hyd1373             HPJ32          rnge_lum      spla_hru1373              null           snow001              null
-    1374  hru1374                topohru1374           hyd1374             HPJ37          rnge_lum      spla_hru1374              null           snow001              null
-    1375  hru1375                topohru1375           hyd1375             HPJ34          rnge_lum      spla_hru1375              null           snow001              null
-    1376  hru1376                topohru1376           hyd1376             HPJ29          rnge_lum      spla_hru1376              null           snow001              null
-    1377  hru1377                topohru1377           hyd1377             HPJ29          rnge_lum      spla_hru1377              null           snow001              null
-    1378  hru1378                topohru1378           hyd1378             HPJ37          rnge_lum      spla_hru1378              null           snow001              null
-    1379  hru1379                topohru1379           hyd1379             HPJ37          rnge_lum      spla_hru1379              null           snow001              null
-    1380  hru1380                topohru1380           hyd1380             HPJ40          rnge_lum      spla_hru1380              null           snow001              null
-    1381  hru1381                topohru1381           hyd1381             HPJ47          rnge_lum      spla_hru1381              null           snow001              null
-    1382  hru1382                topohru1382           hyd1382             HPJ29          rnge_lum      spla_hru1382              null           snow001              null
-    1383  hru1383                topohru1383           hyd1383             HPJ50          rnge_lum      spla_hru1383              null           snow001              null
+    1372  hru1372                topohru1372           hyd1372             HPJ34       rnge_47_lum      spla_hru1372              null           snow001              null
+    1373  hru1373                topohru1373           hyd1373             HPJ32       rnge_48_lum      spla_hru1373              null           snow001              null
+    1374  hru1374                topohru1374           hyd1374             HPJ37       rnge_49_lum      spla_hru1374              null           snow001              null
+    1375  hru1375                topohru1375           hyd1375             HPJ34       rnge_50_lum      spla_hru1375              null           snow001              null
+    1376  hru1376                topohru1376           hyd1376             HPJ29       rnge_51_lum      spla_hru1376              null           snow001              null
+    1377  hru1377                topohru1377           hyd1377             HPJ29       rnge_52_lum      spla_hru1377              null           snow001              null
+    1378  hru1378                topohru1378           hyd1378             HPJ37       rnge_53_lum      spla_hru1378              null           snow001              null
+    1379  hru1379                topohru1379           hyd1379             HPJ37       rnge_54_lum      spla_hru1379              null           snow001              null
+    1380  hru1380                topohru1380           hyd1380             HPJ40       rnge_55_lum      spla_hru1380              null           snow001              null
+    1381  hru1381                topohru1381           hyd1381             HPJ47       rnge_56_lum      spla_hru1381              null           snow001              null
+    1382  hru1382                topohru1382           hyd1382             HPJ29       rnge_57_lum      spla_hru1382              null           snow001              null
+    1383  hru1383                topohru1383           hyd1383             HPJ50       rnge_58_lum      spla_hru1383              null           snow001              null
     1384  hru1384                topohru1384           hyd1384             HPJ50      rnge_drn_lum      spla_hru1384              null           snow001              null
-    1385  hru1385                topohru1385           hyd1385             HPJ29          rnge_lum      spla_hru1385              null           snow001              null
-    1386  hru1386                topohru1386           hyd1386             HPJ29          rnge_lum      spla_hru1386              null           snow001              null
-    1387  hru1387                topohru1387           hyd1387             HPJ29          rnge_lum      spla_hru1387              null           snow001              null
-    1388  hru1388                topohru1388           hyd1388             HPJ29          rnge_lum      spla_hru1388              null           snow001              null
-    1389  hru1389                topohru1389           hyd1389             HPJ29          rnge_lum      spla_hru1389              null           snow001              null
-    1390  hru1390                topohru1390           hyd1390             HPJ47          rnge_lum      spla_hru1390              null           snow001              null
-    1391  hru1391                topohru1391           hyd1391             HPJ40          rnge_lum      spla_hru1391              null           snow001              null
-    1392  hru1392                topohru1392           hyd1392             HPJ68          rnge_lum      spla_hru1392              null           snow001              null
-    1393  hru1393                topohru1393           hyd1393             HPJ29          rnge_lum      spla_hru1393              null           snow001              null
+    1385  hru1385                topohru1385           hyd1385             HPJ29       rnge_59_lum      spla_hru1385              null           snow001              null
+    1386  hru1386                topohru1386           hyd1386             HPJ29       rnge_60_lum      spla_hru1386              null           snow001              null
+    1387  hru1387                topohru1387           hyd1387             HPJ29       rnge_61_lum      spla_hru1387              null           snow001              null
+    1388  hru1388                topohru1388           hyd1388             HPJ29       rnge_62_lum      spla_hru1388              null           snow001              null
+    1389  hru1389                topohru1389           hyd1389             HPJ29       rnge_63_lum      spla_hru1389              null           snow001              null
+    1390  hru1390                topohru1390           hyd1390             HPJ47       rnge_64_lum      spla_hru1390              null           snow001              null
+    1391  hru1391                topohru1391           hyd1391             HPJ40       rnge_65_lum      spla_hru1391              null           snow001              null
+    1392  hru1392                topohru1392           hyd1392             HPJ68       rnge_66_lum      spla_hru1392              null           snow001              null
+    1393  hru1393                topohru1393           hyd1393             HPJ29       rnge_67_lum      spla_hru1393              null           snow001              null
     1394  hru1394                topohru1394           hyd1394             HPJ68      rnge_drn_lum      spla_hru1394              null           snow001              null
     1395  hru1395                topohru1395           hyd1395             HPJ64      rnge_drn_lum      spla_hru1395              null           snow001              null
     1396  hru1396                topohru1396           hyd1396             HPJ68      rnge_drn_lum      spla_hru1396              null           snow001              null
     1397  hru1397                topohru1397           hyd1397             HPJ68      rnge_drn_lum      spla_hru1397              null           snow001              null
-    1398  hru1398                topohru1398           hyd1398             HPJ50          rnge_lum      spla_hru1398              null           snow001              null
-    1399  hru1399                topohru1399           hyd1399             HPJ50          rnge_lum      spla_hru1399              null           snow001              null
-    1400  hru1400                topohru1400           hyd1400             HPJ29          rnge_lum      spla_hru1400              null           snow001              null
-    1401  hru1401                topohru1401           hyd1401             HPJ50          rnge_lum      spla_hru1401              null           snow001              null
-    1402  hru1402                topohru1402           hyd1402             HPJ50          rnge_lum      spla_hru1402              null           snow001              null
-    1403  hru1403                topohru1403           hyd1403             HPJ68          rnge_lum      spla_hru1403              null           snow001              null
-    1404  hru1404                topohru1404           hyd1404             HPJ67          rnge_lum      spla_hru1404              null           snow001              null
-    1405  hru1405                topohru1405           hyd1405             HPJ47          rnge_lum      spla_hru1405              null           snow001              null
-    1406  hru1406                topohru1406           hyd1406             HPJ47          rnge_lum      spla_hru1406              null           snow001              null
+    1398  hru1398                topohru1398           hyd1398             HPJ50       rnge_68_lum      spla_hru1398              null           snow001              null
+    1399  hru1399                topohru1399           hyd1399             HPJ50       rnge_69_lum      spla_hru1399              null           snow001              null
+    1400  hru1400                topohru1400           hyd1400             HPJ29       rnge_70_lum      spla_hru1400              null           snow001              null
+    1401  hru1401                topohru1401           hyd1401             HPJ50       rnge_71_lum      spla_hru1401              null           snow001              null
+    1402  hru1402                topohru1402           hyd1402             HPJ50       rnge_72_lum      spla_hru1402              null           snow001              null
+    1403  hru1403                topohru1403           hyd1403             HPJ68       rnge_73_lum      spla_hru1403              null           snow001              null
+    1404  hru1404                topohru1404           hyd1404             HPJ67       rnge_74_lum      spla_hru1404              null           snow001              null
+    1405  hru1405                topohru1405           hyd1405             HPJ47       rnge_75_lum      spla_hru1405              null           snow001              null
+    1406  hru1406                topohru1406           hyd1406             HPJ47       rnge_76_lum      spla_hru1406              null           snow001              null
     1407  hru1407                topohru1407           hyd1407             HPJ47      rnge_drn_lum      spla_hru1407              null           snow001              null
     1408  hru1408                topohru1408           hyd1408             HPJ47      rnge_drn_lum      spla_hru1408              null           snow001              null
-    1409  hru1409                topohru1409           hyd1409             HPJ29          rnge_lum      spla_hru1409              null           snow001              null
-    1410  hru1410                topohru1410           hyd1410             HPJ50          rnge_lum      spla_hru1410              null           snow001              null
+    1409  hru1409                topohru1409           hyd1409             HPJ29       rnge_77_lum      spla_hru1409              null           snow001              null
+    1410  hru1410                topohru1410           hyd1410             HPJ50       rnge_78_lum      spla_hru1410              null           snow001              null
     1411  hru1411                topohru1411           hyd1411             HPJ47      rnge_drn_lum      spla_hru1411              null           snow001              null
     1412  hru1412                topohru1412           hyd1412             HPJ47      rnge_drn_lum      spla_hru1412              null           snow001              null
-    1413  hru1413                topohru1413           hyd1413             HPJ29          rnge_lum      spla_hru1413              null           snow001              null
-    1414  hru1414                topohru1414           hyd1414             HPJ47          rnge_lum      spla_hru1414              null           snow001              null
+    1413  hru1413                topohru1413           hyd1413             HPJ29       rnge_79_lum      spla_hru1413              null           snow001              null
+    1414  hru1414                topohru1414           hyd1414             HPJ47       rnge_80_lum      spla_hru1414              null           snow001              null
     1415  hru1415                topohru1415           hyd1415             HPJ47      rnge_drn_lum      spla_hru1415              null           snow001              null
-    1416  hru1416                topohru1416           hyd1416             HPJ68          rnge_lum      spla_hru1416              null           snow001              null
-    1417  hru1417                topohru1417           hyd1417             HPJ29          rnge_lum      spla_hru1417              null           snow001              null
-    1418  hru1418                topohru1418           hyd1418             HPJ29          rnge_lum      spla_hru1418              null           snow001              null
-    1419  hru1419                topohru1419           hyd1419             HPJF2          rnge_lum      spla_hru1419              null           snow001              null
-    1420  hru1420                topohru1420           hyd1420             HPJ71          rnge_lum      spla_hru1420              null           snow001              null
-    1421  hru1421                topohru1421           hyd1421             HPJ29          rnge_lum      spla_hru1421              null           snow001              null
-    1422  hru1422                topohru1422           hyd1422             HPJ29          rnge_lum      spla_hru1422              null           snow001              null
-    1423  hru1423                topohru1423           hyd1423             HPJ29          rnge_lum      spla_hru1423              null           snow001              null
-    1424  hru1424                topohru1424           hyd1424             HPJ29          rnge_lum      spla_hru1424              null           snow001              null
-    1425  hru1425                topohru1425           hyd1425             HPJ68          rnge_lum      spla_hru1425              null           snow001              null
+    1416  hru1416                topohru1416           hyd1416             HPJ68       rnge_81_lum      spla_hru1416              null           snow001              null
+    1417  hru1417                topohru1417           hyd1417             HPJ29       rnge_82_lum      spla_hru1417              null           snow001              null
+    1418  hru1418                topohru1418           hyd1418             HPJ29       rnge_83_lum      spla_hru1418              null           snow001              null
+    1419  hru1419                topohru1419           hyd1419             HPJF2       rnge_84_lum      spla_hru1419              null           snow001              null
+    1420  hru1420                topohru1420           hyd1420             HPJ71       rnge_85_lum      spla_hru1420              null           snow001              null
+    1421  hru1421                topohru1421           hyd1421             HPJ29       rnge_86_lum      spla_hru1421              null           snow001              null
+    1422  hru1422                topohru1422           hyd1422             HPJ29       rnge_87_lum      spla_hru1422              null           snow001              null
+    1423  hru1423                topohru1423           hyd1423             HPJ29       rnge_88_lum      spla_hru1423              null           snow001              null
+    1424  hru1424                topohru1424           hyd1424             HPJ29       rnge_89_lum      spla_hru1424              null           snow001              null
+    1425  hru1425                topohru1425           hyd1425             HPJ68       rnge_90_lum      spla_hru1425              null           snow001              null
     1426  hru1426                topohru1426           hyd1426             HPJ68      rnge_drn_lum      spla_hru1426              null           snow001              null
-    1427  hru1427                topohru1427           hyd1427             HPJ50          rnge_lum      spla_hru1427              null           snow001              null
-    1428  hru1428                topohru1428           hyd1428             HPJ50          rnge_lum      spla_hru1428              null           snow001              null
-    1429  hru1429                topohru1429           hyd1429             HPJ50          rnge_lum      spla_hru1429              null           snow001              null
+    1427  hru1427                topohru1427           hyd1427             HPJ50       rnge_91_lum      spla_hru1427              null           snow001              null
+    1428  hru1428                topohru1428           hyd1428             HPJ50       rnge_92_lum      spla_hru1428              null           snow001              null
+    1429  hru1429                topohru1429           hyd1429             HPJ50       rnge_93_lum      spla_hru1429              null           snow001              null
     1430  hru1430                topohru1430           hyd1430             HPJ50      rnge_drn_lum      spla_hru1430              null           snow001              null
     1431  hru1431                topohru1431           hyd1431             HPJ50      rnge_drn_lum      spla_hru1431              null           snow001              null
     1432  hru1432                topohru1432           hyd1432             HPJ50      rnge_drn_lum      spla_hru1432              null           snow001              null
-    1433  hru1433                topohru1433           hyd1433             HPJF2          rnge_lum      spla_hru1433              null           snow001              null
+    1433  hru1433                topohru1433           hyd1433             HPJF2       rnge_94_lum      spla_hru1433              null           snow001              null
     1434  hru1434                topohru1434           hyd1434             HPJ29      rnge_drn_lum      spla_hru1434              null           snow001              null
     1435  hru1435                topohru1435           hyd1435             HPJ29      rnge_drn_lum      spla_hru1435              null           snow001              null
-    1436  hru1436                topohru1436           hyd1436             HPJ68          rnge_lum      spla_hru1436              null           snow001              null
+    1436  hru1436                topohru1436           hyd1436             HPJ68       rnge_95_lum      spla_hru1436              null           snow001              null
     1437  hru1437                topohru1437           hyd1437             HPJ68      rnge_drn_lum      spla_hru1437              null           snow001              null
-    1438  hru1438                topohru1438           hyd1438             HPJ68          rnge_lum      spla_hru1438              null           snow001              null
-    1439  hru1439                topohru1439           hyd1439             HPJ50          rnge_lum      spla_hru1439              null           snow001              null
+    1438  hru1438                topohru1438           hyd1438             HPJ68       rnge_96_lum      spla_hru1438              null           snow001              null
+    1439  hru1439                topohru1439           hyd1439             HPJ50       rnge_97_lum      spla_hru1439              null           snow001              null
     1440  hru1440                topohru1440           hyd1440             HPJ50      rnge_drn_lum      spla_hru1440              null           snow001              null
     1441  hru1441                topohru1441           hyd1441             HPJ50      rnge_drn_lum      spla_hru1441              null           snow001              null
-    1442  hru1442                topohru1442           hyd1442             HPJ29          rnge_lum      spla_hru1442              null           snow001              null
-    1443  hru1443                topohru1443           hyd1443             HPJ29          rnge_lum      spla_hru1443              null           snow001              null
-    1444  hru1444                topohru1444           hyd1444             HPJ29          rnge_lum      spla_hru1444              null           snow001              null
-    1445  hru1445                topohru1445           hyd1445             HPJ29          rnge_lum      spla_hru1445              null           snow001              null
-    1446  hru1446                topohru1446           hyd1446             HPJ29          rnge_lum      spla_hru1446              null           snow001              null
-    1447  hru1447                topohru1447           hyd1447             HPJ29          rnge_lum      spla_hru1447              null           snow001              null
+    1442  hru1442                topohru1442           hyd1442             HPJ29       rnge_98_lum      spla_hru1442              null           snow001              null
+    1443  hru1443                topohru1443           hyd1443             HPJ29       rnge_99_lum      spla_hru1443              null           snow001              null
+    1444  hru1444                topohru1444           hyd1444             HPJ29      rnge_100_lum      spla_hru1444              null           snow001              null
+    1445  hru1445                topohru1445           hyd1445             HPJ29      rnge_101_lum      spla_hru1445              null           snow001              null
+    1446  hru1446                topohru1446           hyd1446             HPJ29      rnge_102_lum      spla_hru1446              null           snow001              null
+    1447  hru1447                topohru1447           hyd1447             HPJ29      rnge_103_lum      spla_hru1447              null           snow001              null
     1448  hru1448                topohru1448           hyd1448             HPJ68      rnge_drn_lum      spla_hru1448              null           snow001              null
-    1449  hru1449                topohru1449           hyd1449             HPJ29          rnge_lum      spla_hru1449              null           snow001              null
+    1449  hru1449                topohru1449           hyd1449             HPJ29      rnge_104_lum      spla_hru1449              null           snow001              null
     1450  hru1450                topohru1450           hyd1450             HPJ68      rnge_drn_lum      spla_hru1450              null           snow001              null
     1451  hru1451                topohru1451           hyd1451             HPJ68      rnge_drn_lum      spla_hru1451              null           snow001              null
     1452  hru1452                topohru1452           hyd1452             HPJ68      rnge_drn_lum      spla_hru1452              null           snow001              null
-    1453  hru1453                topohru1453           hyd1453             HPJ29          rnge_lum      spla_hru1453              null           snow001              null
+    1453  hru1453                topohru1453           hyd1453             HPJ29      rnge_105_lum      spla_hru1453              null           snow001              null
     1454  hru1454                topohru1454           hyd1454             HPJ29      rnge_drn_lum      spla_hru1454              null           snow001              null
-    1455  hru1455                topohru1455           hyd1455             HPJ29          rnge_lum      spla_hru1455              null           snow001              null
-    1456  hru1456                topohru1456           hyd1456             HPJ29          rnge_lum      spla_hru1456              null           snow001              null
-    1457  hru1457                topohru1457           hyd1457             HPJ29          rnge_lum      spla_hru1457              null           snow001              null
-    1458  hru1458                topohru1458           hyd1458             HPJ29          rnge_lum      spla_hru1458              null           snow001              null
-    1459  hru1459                topohru1459           hyd1459             HPJ29          rnge_lum      spla_hru1459              null           snow001              null
+    1455  hru1455                topohru1455           hyd1455             HPJ29      rnge_106_lum      spla_hru1455              null           snow001              null
+    1456  hru1456                topohru1456           hyd1456             HPJ29      rnge_107_lum      spla_hru1456              null           snow001              null
+    1457  hru1457                topohru1457           hyd1457             HPJ29      rnge_108_lum      spla_hru1457              null           snow001              null
+    1458  hru1458                topohru1458           hyd1458             HPJ29      rnge_109_lum      spla_hru1458              null           snow001              null
+    1459  hru1459                topohru1459           hyd1459             HPJ29      rnge_110_lum      spla_hru1459              null           snow001              null
     1460  hru1460                topohru1460           hyd1460             HPJ50      rnge_drn_lum      spla_hru1460              null           snow001              null
     1461  hru1461                topohru1461           hyd1461             HPJ29      rnge_drn_lum      spla_hru1461              null           snow001              null
     1462  hru1462                topohru1462           hyd1462             HPJ50      rnge_drn_lum      spla_hru1462              null           snow001              null
-    1463  hru1463                topohru1463           hyd1463             HPJF1          rnge_lum      spla_hru1463              null           snow001              null
+    1463  hru1463                topohru1463           hyd1463             HPJF1      rnge_111_lum      spla_hru1463              null           snow001              null
     1464  hru1464                topohru1464           hyd1464             HPJ64      rnge_drn_lum      spla_hru1464              null           snow001              null
     1465  hru1465                topohru1465           hyd1465             HPJ64      rnge_drn_lum      spla_hru1465              null           snow001              null
-    1466  hru1466                topohru1466           hyd1466             HPJ68          rnge_lum      spla_hru1466              null           snow001              null
-    1467  hru1467                topohru1467           hyd1467             HPJ68          rnge_lum      spla_hru1467              null           snow001              null
+    1466  hru1466                topohru1466           hyd1466             HPJ68      rnge_112_lum      spla_hru1466              null           snow001              null
+    1467  hru1467                topohru1467           hyd1467             HPJ68      rnge_113_lum      spla_hru1467              null           snow001              null
     1468  hru1468                topohru1468           hyd1468             HPJ68      rnge_drn_lum      spla_hru1468              null           snow001              null
-    1469  hru1469                topohru1469           hyd1469             HPJ68          rnge_lum      spla_hru1469              null           snow001              null
+    1469  hru1469                topohru1469           hyd1469             HPJ68      rnge_114_lum      spla_hru1469              null           snow001              null
     1470  hru1470                topohru1470           hyd1470             HPJ68      rnge_drn_lum      spla_hru1470              null           snow001              null
-    1471  hru1471                topohru1471           hyd1471             HPJ29          rnge_lum      spla_hru1471              null           snow001              null
-    1472  hru1472                topohru1472           hyd1472             HPJ29          rnge_lum      spla_hru1472              null           snow001              null
+    1471  hru1471                topohru1471           hyd1471             HPJ29      rnge_115_lum      spla_hru1471              null           snow001              null
+    1472  hru1472                topohru1472           hyd1472             HPJ29      rnge_116_lum      spla_hru1472              null           snow001              null
     1473  hru1473                topohru1473           hyd1473             HPJ47      rnge_drn_lum      spla_hru1473              null           snow001              null
-    1474  hru1474                topohru1474           hyd1474             HPJ29          rnge_lum      spla_hru1474              null           snow001              null
-    1475  hru1475                topohru1475           hyd1475             HPJF3          rnge_lum      spla_hru1475              null           snow001              null
-    1476  hru1476                topohru1476           hyd1476             HPJ73          rnge_lum      spla_hru1476              null           snow001              null
+    1474  hru1474                topohru1474           hyd1474             HPJ29      rnge_117_lum      spla_hru1474              null           snow001              null
+    1475  hru1475                topohru1475           hyd1475             HPJF3      rnge_118_lum      spla_hru1475              null           snow001              null
+    1476  hru1476                topohru1476           hyd1476             HPJ73      rnge_119_lum      spla_hru1476              null           snow001              null
     1477  hru1477                topohru1477           hyd1477             HPJ47      rnge_drn_lum      spla_hru1477              null           snow001              null
     1478  hru1478                topohru1478           hyd1478             HPJ29      rnge_drn_lum      spla_hru1478              null           snow001              null
     1479  hru1479                topohru1479           hyd1479             HPJ68      rnge_drn_lum      spla_hru1479              null           snow001              null
-    1480  hru1480                topohru1480           hyd1480             HPJ68          rnge_lum      spla_hru1480              null           snow001              null
-    1481  hru1481                topohru1481           hyd1481             HPJ50          rnge_lum      spla_hru1481              null           snow001              null
-    1482  hru1482                topohru1482           hyd1482             HPJ50          rnge_lum      spla_hru1482              null           snow001              null
+    1480  hru1480                topohru1480           hyd1480             HPJ68      rnge_120_lum      spla_hru1480              null           snow001              null
+    1481  hru1481                topohru1481           hyd1481             HPJ50      rnge_121_lum      spla_hru1481              null           snow001              null
+    1482  hru1482                topohru1482           hyd1482             HPJ50      rnge_122_lum      spla_hru1482              null           snow001              null
     1483  hru1483                topohru1483           hyd1483             HPJ68      rnge_drn_lum      spla_hru1483              null           snow001              null
     1484  hru1484                topohru1484           hyd1484             HPJ68      rnge_drn_lum      spla_hru1484              null           snow001              null
-    1485  hru1485                topohru1485           hyd1485             HPJ50          rnge_lum      spla_hru1485              null           snow001              null
-    1486  hru1486                topohru1486           hyd1486             HPJ29          rnge_lum      spla_hru1486              null           snow001              null
-    1487  hru1487                topohru1487           hyd1487             HPJ68          rnge_lum      spla_hru1487              null           snow001              null
-    1488  hru1488                topohru1488           hyd1488             HPJ29          rnge_lum      spla_hru1488              null           snow001              null
-    1489  hru1489                topohru1489           hyd1489             HPJ29          rnge_lum      spla_hru1489              null           snow001              null
-    1490  hru1490                topohru1490           hyd1490             HPJ68          rnge_lum      spla_hru1490              null           snow001              null
+    1485  hru1485                topohru1485           hyd1485             HPJ50      rnge_123_lum      spla_hru1485              null           snow001              null
+    1486  hru1486                topohru1486           hyd1486             HPJ29      rnge_124_lum      spla_hru1486              null           snow001              null
+    1487  hru1487                topohru1487           hyd1487             HPJ68      rnge_125_lum      spla_hru1487              null           snow001              null
+    1488  hru1488                topohru1488           hyd1488             HPJ29      rnge_126_lum      spla_hru1488              null           snow001              null
+    1489  hru1489                topohru1489           hyd1489             HPJ29      rnge_127_lum      spla_hru1489              null           snow001              null
+    1490  hru1490                topohru1490           hyd1490             HPJ68      rnge_128_lum      spla_hru1490              null           snow001              null
     1491  hru1491                topohru1491           hyd1491             HPJ29      rnge_drn_lum      spla_hru1491              null           snow001              null
     1492  hru1492                topohru1492           hyd1492             HPJ68      rnge_drn_lum      spla_hru1492              null           snow001              null
     1493  hru1493                topohru1493           hyd1493             HPJ68      rnge_drn_lum      spla_hru1493              null           snow001              null
     1494  hru1494                topohru1494           hyd1494             HPJ68      rnge_drn_lum      spla_hru1494              null           snow001              null
     1495  hru1495                topohru1495           hyd1495             HPJ50      rnge_drn_lum      spla_hru1495              null           snow001              null
-    1496  hru1496                topohru1496           hyd1496             HPJ29          rnge_lum      spla_hru1496              null           snow001              null
-    1497  hru1497                topohru1497           hyd1497             HPJ29          rnge_lum      spla_hru1497              null           snow001              null
+    1496  hru1496                topohru1496           hyd1496             HPJ29      rnge_129_lum      spla_hru1496              null           snow001              null
+    1497  hru1497                topohru1497           hyd1497             HPJ29      rnge_130_lum      spla_hru1497              null           snow001              null
     1498  hru1498                topohru1498           hyd1498             HPJ29      rnge_drn_lum      spla_hru1498              null           snow001              null
-    1499  hru1499                topohru1499           hyd1499             HPJF3          rnge_lum      spla_hru1499              null           snow001              null
+    1499  hru1499                topohru1499           hyd1499             HPJF3      rnge_131_lum      spla_hru1499              null           snow001              null
     1500  hru1500                topohru1500           hyd1500             HPJF3      rnge_drn_lum      spla_hru1500              null           snow001              null
     1501  hru1501                topohru1501           hyd1501             HPJ50      rnge_drn_lum      spla_hru1501              null           snow001              null
-    1502  hru1502                topohru1502           hyd1502             HPJ50          rnge_lum      spla_hru1502              null           snow001              null
-    1503  hru1503                topohru1503           hyd1503             HPJ50          rnge_lum      spla_hru1503              null           snow001              null
+    1502  hru1502                topohru1502           hyd1502             HPJ50      rnge_132_lum      spla_hru1502              null           snow001              null
+    1503  hru1503                topohru1503           hyd1503             HPJ50      rnge_133_lum      spla_hru1503              null           snow001              null
     1504  hru1504                topohru1504           hyd1504             HPJ50      rnge_drn_lum      spla_hru1504              null           snow001              null
-    1505  hru1505                topohru1505           hyd1505             HPJ68          rnge_lum      spla_hru1505              null           snow001              null
-    1506  hru1506                topohru1506           hyd1506             HPJ68          rnge_lum      spla_hru1506              null           snow001              null
+    1505  hru1505                topohru1505           hyd1505             HPJ68      rnge_134_lum      spla_hru1505              null           snow001              null
+    1506  hru1506                topohru1506           hyd1506             HPJ68      rnge_135_lum      spla_hru1506              null           snow001              null
     1507  hru1507                topohru1507           hyd1507             HPJ50      rnge_drn_lum      spla_hru1507              null           snow001              null
     1508  hru1508                topohru1508           hyd1508             HPJ29      rnge_drn_lum      spla_hru1508              null           snow001              null
-    1509  hru1509                topohru1509           hyd1509             HPJ29          rnge_lum      spla_hru1509              null           snow001              null
-    1510  hru1510                topohru1510           hyd1510             HPJ47          rnge_lum      spla_hru1510              null           snow001              null
-    1511  hru1511                topohru1511           hyd1511             HPJ29          rnge_lum      spla_hru1511              null           snow001              null
-    1512  hru1512                topohru1512           hyd1512             HPJ47          rnge_lum      spla_hru1512              null           snow001              null
+    1509  hru1509                topohru1509           hyd1509             HPJ29      rnge_136_lum      spla_hru1509              null           snow001              null
+    1510  hru1510                topohru1510           hyd1510             HPJ47      rnge_137_lum      spla_hru1510              null           snow001              null
+    1511  hru1511                topohru1511           hyd1511             HPJ29      rnge_138_lum      spla_hru1511              null           snow001              null
+    1512  hru1512                topohru1512           hyd1512             HPJ47      rnge_139_lum      spla_hru1512              null           snow001              null
     1513  hru1513                topohru1513           hyd1513             HPJ64      rnge_drn_lum      spla_hru1513              null           snow001              null
     1514  hru1514                topohru1514           hyd1514             HPJ47      rnge_drn_lum      spla_hru1514              null           snow001              null
-    1515  hru1515                topohru1515           hyd1515             HPJ47          rnge_lum      spla_hru1515              null           snow001              null
-    1516  hru1516                topohru1516           hyd1516             HPJ64          rnge_lum      spla_hru1516              null           snow001              null
+    1515  hru1515                topohru1515           hyd1515             HPJ47      rnge_140_lum      spla_hru1515              null           snow001              null
+    1516  hru1516                topohru1516           hyd1516             HPJ64      rnge_141_lum      spla_hru1516              null           snow001              null
     1517  hru1517                topohru1517           hyd1517             HPJ29      rnge_drn_lum      spla_hru1517              null           snow001              null
     1518  hru1518                topohru1518           hyd1518             HPJ47      rnge_drn_lum      spla_hru1518              null           snow001              null
     1519  hru1519                topohru1519           hyd1519             HPJ29      rnge_drn_lum      spla_hru1519              null           snow001              null
-    1520  hru1520                topohru1520           hyd1520             HPJ50          rnge_lum      spla_hru1520              null           snow001              null
-    1521  hru1521                topohru1521           hyd1521             HPJ64          rnge_lum      spla_hru1521              null           snow001              null
-    1522  hru1522                topohru1522           hyd1522             HPJF3          rnge_lum      spla_hru1522              null           snow001              null
-    1523  hru1523                topohru1523           hyd1523             HPJ50          rnge_lum      spla_hru1523              null           snow001              null
-    1524  hru1524                topohru1524           hyd1524             HPJ29          rnge_lum      spla_hru1524              null           snow001              null
-    1525  hru1525                topohru1525           hyd1525             HPJ29          rnge_lum      spla_hru1525              null           snow001              null
+    1520  hru1520                topohru1520           hyd1520             HPJ50      rnge_142_lum      spla_hru1520              null           snow001              null
+    1521  hru1521                topohru1521           hyd1521             HPJ64      rnge_143_lum      spla_hru1521              null           snow001              null
+    1522  hru1522                topohru1522           hyd1522             HPJF3      rnge_144_lum      spla_hru1522              null           snow001              null
+    1523  hru1523                topohru1523           hyd1523             HPJ50      rnge_145_lum      spla_hru1523              null           snow001              null
+    1524  hru1524                topohru1524           hyd1524             HPJ29      rnge_146_lum      spla_hru1524              null           snow001              null
+    1525  hru1525                topohru1525           hyd1525             HPJ29      rnge_147_lum      spla_hru1525              null           snow001              null
     1526  hru1526                topohru1526           hyd1526             HPJ29      rnge_drn_lum      spla_hru1526              null           snow001              null
     1527  hru1527                topohru1527           hyd1527             HPJ29      rnge_drn_lum      spla_hru1527              null           snow001              null
-    1528  hru1528                topohru1528           hyd1528             HPJ29          rnge_lum      spla_hru1528              null           snow001              null
+    1528  hru1528                topohru1528           hyd1528             HPJ29      rnge_148_lum      spla_hru1528              null           snow001              null
     1529  hru1529                topohru1529           hyd1529             HPJ50      rnge_drn_lum      spla_hru1529              null           snow001              null
-    1530  hru1530                topohru1530           hyd1530             HPJ29          rnge_lum      spla_hru1530              null           snow001              null
-    1531  hru1531                topohru1531           hyd1531             HPJ29          rnge_lum      spla_hru1531              null           snow001              null
-    1532  hru1532                topohru1532           hyd1532             HPJ64          rnge_lum      spla_hru1532              null           snow001              null
+    1530  hru1530                topohru1530           hyd1530             HPJ29      rnge_149_lum      spla_hru1530              null           snow001              null
+    1531  hru1531                topohru1531           hyd1531             HPJ29      rnge_150_lum      spla_hru1531              null           snow001              null
+    1532  hru1532                topohru1532           hyd1532             HPJ64      rnge_151_lum      spla_hru1532              null           snow001              null
     1533  hru1533                topohru1533           hyd1533             HPJ64      rnge_drn_lum      spla_hru1533              null           snow001              null
     1534  hru1534                topohru1534           hyd1534             HPJ68      rnge_drn_lum      spla_hru1534              null           snow001              null
     1535  hru1535                topohru1535           hyd1535             HPJ68      rnge_drn_lum      spla_hru1535              null           snow001              null
-    1536  hru1536                topohru1536           hyd1536             HPJ29          rnge_lum      spla_hru1536              null           snow001              null
-    1537  hru1537                topohru1537           hyd1537             HPJ29          rnge_lum      spla_hru1537              null           snow001              null
-    1538  hru1538                topohru1538           hyd1538             HPJ34          rnge_lum      spla_hru1538              null           snow001              null
-    1539  hru1539                topohru1539           hyd1539             HPJ29          rnge_lum      spla_hru1539              null           snow001              null
-    1540  hru1540                topohru1540           hyd1540             HPJ34          rnge_lum      spla_hru1540              null           snow001              null
-    1541  hru1541                topohru1541           hyd1541             HPJ40          rnge_lum      spla_hru1541              null           snow001              null
-    1542  hru1542                topohru1542           hyd1542             HPJ34          rnge_lum      spla_hru1542              null           snow001              null
-    1543  hru1543                topohru1543           hyd1543             HPJ37          rnge_lum      spla_hru1543              null           snow001              null
-    1544  hru1544                topohru1544           hyd1544             HPJ34          rnge_lum      spla_hru1544              null           snow001              null
-    1545  hru1545                topohru1545           hyd1545             HPJ37          rnge_lum      spla_hru1545              null           snow001              null
-    1546  hru1546                topohru1546           hyd1546             HPJ47          rnge_lum      spla_hru1546              null           snow001              null
-    1547  hru1547                topohru1547           hyd1547             HPJ29          rnge_lum      spla_hru1547              null           snow001              null
-    1548  hru1548                topohru1548           hyd1548             HPJ29          rnge_lum      spla_hru1548              null           snow001              null
+    1536  hru1536                topohru1536           hyd1536             HPJ29      rnge_152_lum      spla_hru1536              null           snow001              null
+    1537  hru1537                topohru1537           hyd1537             HPJ29      rnge_153_lum      spla_hru1537              null           snow001              null
+    1538  hru1538                topohru1538           hyd1538             HPJ34      rnge_154_lum      spla_hru1538              null           snow001              null
+    1539  hru1539                topohru1539           hyd1539             HPJ29      rnge_155_lum      spla_hru1539              null           snow001              null
+    1540  hru1540                topohru1540           hyd1540             HPJ34      rnge_156_lum      spla_hru1540              null           snow001              null
+    1541  hru1541                topohru1541           hyd1541             HPJ40      rnge_157_lum      spla_hru1541              null           snow001              null
+    1542  hru1542                topohru1542           hyd1542             HPJ34      rnge_158_lum      spla_hru1542              null           snow001              null
+    1543  hru1543                topohru1543           hyd1543             HPJ37      rnge_159_lum      spla_hru1543              null           snow001              null
+    1544  hru1544                topohru1544           hyd1544             HPJ34      rnge_160_lum      spla_hru1544              null           snow001              null
+    1545  hru1545                topohru1545           hyd1545             HPJ37      rnge_161_lum      spla_hru1545              null           snow001              null
+    1546  hru1546                topohru1546           hyd1546             HPJ47      rnge_162_lum      spla_hru1546              null           snow001              null
+    1547  hru1547                topohru1547           hyd1547             HPJ29      rnge_163_lum      spla_hru1547              null           snow001              null
+    1548  hru1548                topohru1548           hyd1548             HPJ29      rnge_164_lum      spla_hru1548              null           snow001              null
     1549  hru1549                topohru1549           hyd1549             HPJ64      rnge_drn_lum      spla_hru1549              null           snow001              null
     1550  hru1550                topohru1550           hyd1550             HPJ47      rnge_drn_lum      spla_hru1550              null           snow001              null
-    1551  hru1551                topohru1551           hyd1551             HPJ29          rnge_lum      spla_hru1551              null           snow001              null
-    1552  hru1552                topohru1552           hyd1552             HPJ29          rnge_lum      spla_hru1552              null           snow001              null
+    1551  hru1551                topohru1551           hyd1551             HPJ29      rnge_165_lum      spla_hru1551              null           snow001              null
+    1552  hru1552                topohru1552           hyd1552             HPJ29      rnge_166_lum      spla_hru1552              null           snow001              null
     1553  hru1553                topohru1553           hyd1553             HPJ64      rnge_drn_lum      spla_hru1553              null           snow001              null
-    1554  hru1554                topohru1554           hyd1554             HPJ29          rnge_lum      spla_hru1554              null           snow001              null
-    1555  hru1555                topohru1555           hyd1555             HPJ29          rnge_lum      spla_hru1555              null           snow001              null
+    1554  hru1554                topohru1554           hyd1554             HPJ29      rnge_167_lum      spla_hru1554              null           snow001              null
+    1555  hru1555                topohru1555           hyd1555             HPJ29      rnge_168_lum      spla_hru1555              null           snow001              null
     1556  hru1556                topohru1556           hyd1556             HPJ29      rnge_drn_lum      spla_hru1556              null           snow001              null
-    1557  hru1557                topohru1557           hyd1557             HPJ29          rnge_lum      spla_hru1557              null           snow001              null
-    1558  hru1558                topohru1558           hyd1558             HPJ50          rnge_lum      spla_hru1558              null           snow001              null
+    1557  hru1557                topohru1557           hyd1557             HPJ29      rnge_169_lum      spla_hru1557              null           snow001              null
+    1558  hru1558                topohru1558           hyd1558             HPJ50      rnge_170_lum      spla_hru1558              null           snow001              null
     1559  hru1559                topohru1559           hyd1559             HPJ50      rnge_drn_lum      spla_hru1559              null           snow001              null
-    1560  hru1560                topohru1560           hyd1560             HPJ68          rnge_lum      spla_hru1560              null           snow001              null
-    1561  hru1561                topohru1561           hyd1561             HPJ29          rnge_lum      spla_hru1561              null           snow001              null
-    1562  hru1562                topohru1562           hyd1562             HPJ29          rnge_lum      spla_hru1562              null           snow001              null
-    1563  hru1563                topohru1563           hyd1563             HPJ29          rnge_lum      spla_hru1563              null           snow001              null
+    1560  hru1560                topohru1560           hyd1560             HPJ68      rnge_171_lum      spla_hru1560              null           snow001              null
+    1561  hru1561                topohru1561           hyd1561             HPJ29      rnge_172_lum      spla_hru1561              null           snow001              null
+    1562  hru1562                topohru1562           hyd1562             HPJ29      rnge_173_lum      spla_hru1562              null           snow001              null
+    1563  hru1563                topohru1563           hyd1563             HPJ29      rnge_174_lum      spla_hru1563              null           snow001              null
     1564  hru1564                topohru1564           hyd1564             HPJ64      rnge_drn_lum      spla_hru1564              null           snow001              null
     1565  hru1565                topohru1565           hyd1565             HPJ64      rnge_drn_lum      spla_hru1565              null           snow001              null
     1566  hru1566                topohru1566           hyd1566             HPJ64      rnge_drn_lum      spla_hru1566              null           snow001              null
     1567  hru1567                topohru1567           hyd1567             HPJ64      rnge_drn_lum      spla_hru1567              null           snow001              null
     1568  hru1568                topohru1568           hyd1568             HPJ64      rnge_drn_lum      spla_hru1568              null           snow001              null
     1569  hru1569                topohru1569           hyd1569             HPJ64      rnge_drn_lum      spla_hru1569              null           snow001              null
-    1570  hru1570                topohru1570           hyd1570             HPJ29          rnge_lum      spla_hru1570              null           snow001              null
+    1570  hru1570                topohru1570           hyd1570             HPJ29      rnge_175_lum      spla_hru1570              null           snow001              null
     1571  hru1571                topohru1571           hyd1571             HPJ67      rnge_drn_lum      spla_hru1571              null           snow001              null
     1572  hru1572                topohru1572           hyd1572             HPJ67      rnge_drn_lum      spla_hru1572              null           snow001              null
-    1573  hru1573                topohru1573           hyd1573             HPJ67          rnge_lum      spla_hru1573              null           snow001              null
+    1573  hru1573                topohru1573           hyd1573             HPJ67      rnge_176_lum      spla_hru1573              null           snow001              null
     1574  hru1574                topohru1574           hyd1574             HPJ67      rnge_drn_lum      spla_hru1574              null           snow001              null
     1575  hru1575                topohru1575           hyd1575             HPJ67      rnge_drn_lum      spla_hru1575              null           snow001              null
     1576  hru1576                topohru1576           hyd1576             HPJ67      rnge_drn_lum      spla_hru1576              null           snow001              null
     1577  hru1577                topohru1577           hyd1577             HPJ64      rnge_drn_lum      spla_hru1577              null           snow001              null
     1578  hru1578                topohru1578           hyd1578             HPJ67      rnge_drn_lum      spla_hru1578              null           snow001              null
-    1579  hru1579                topohru1579           hyd1579             HPJ29          rnge_lum      spla_hru1579              null           snow001              null
-    1580  hru1580                topohru1580           hyd1580             HPJF1          rnge_lum      spla_hru1580              null           snow001              null
+    1579  hru1579                topohru1579           hyd1579             HPJ29      rnge_177_lum      spla_hru1579              null           snow001              null
+    1580  hru1580                topohru1580           hyd1580             HPJF1      rnge_178_lum      spla_hru1580              null           snow001              null
     1581  hru1581                topohru1581           hyd1581             HPJ67      rnge_drn_lum      spla_hru1581              null           snow001              null
     1582  hru1582                topohru1582           hyd1582             HPJ67      rnge_drn_lum      spla_hru1582              null           snow001              null
     1583  hru1583                topohru1583           hyd1583             HPJ67      rnge_drn_lum      spla_hru1583              null           snow001              null
     1584  hru1584                topohru1584           hyd1584             HPJ67      rnge_drn_lum      spla_hru1584              null           snow001              null
     1585  hru1585                topohru1585           hyd1585             HPJ67      rnge_drn_lum      spla_hru1585              null           snow001              null
-    1586  hru1586                topohru1586           hyd1586             HPJ64          rnge_lum      spla_hru1586              null           snow001              null
-    1587  hru1587                topohru1587           hyd1587             HPJ29          rnge_lum      spla_hru1587              null           snow001              null
-    1588  hru1588                topohru1588           hyd1588             HPJ64          rnge_lum      spla_hru1588              null           snow001              null
-    1589  hru1589                topohru1589           hyd1589             HPJ29          rnge_lum      spla_hru1589              null           snow001              null
-    1590  hru1590                topohru1590           hyd1590             HPJ29          rnge_lum      spla_hru1590              null           snow001              null
-    1591  hru1591                topohru1591           hyd1591             HPJ29          rnge_lum      spla_hru1591              null           snow001              null
+    1586  hru1586                topohru1586           hyd1586             HPJ64      rnge_179_lum      spla_hru1586              null           snow001              null
+    1587  hru1587                topohru1587           hyd1587             HPJ29      rnge_180_lum      spla_hru1587              null           snow001              null
+    1588  hru1588                topohru1588           hyd1588             HPJ64      rnge_181_lum      spla_hru1588              null           snow001              null
+    1589  hru1589                topohru1589           hyd1589             HPJ29      rnge_182_lum      spla_hru1589              null           snow001              null
+    1590  hru1590                topohru1590           hyd1590             HPJ29      rnge_183_lum      spla_hru1590              null           snow001              null
+    1591  hru1591                topohru1591           hyd1591             HPJ29      rnge_184_lum      spla_hru1591              null           snow001              null
     1592  hru1592                topohru1592           hyd1592             HPJ64      rnge_drn_lum      spla_hru1592              null           snow001              null
-    1593  hru1593                topohru1593           hyd1593             HPJ47          rnge_lum      spla_hru1593              null           snow001              null
-    1594  hru1594                topohru1594           hyd1594             HPJ47          rnge_lum      spla_hru1594              null           snow001              null
+    1593  hru1593                topohru1593           hyd1593             HPJ47      rnge_185_lum      spla_hru1593              null           snow001              null
+    1594  hru1594                topohru1594           hyd1594             HPJ47      rnge_186_lum      spla_hru1594              null           snow001              null
     1595  hru1595                topohru1595           hyd1595             HPJ47      rnge_drn_lum      spla_hru1595              null           snow001              null
     1596  hru1596                topohru1596           hyd1596             HPJ50      rnge_drn_lum      spla_hru1596              null           snow001              null
     1597  hru1597                topohru1597           hyd1597             HPJ50      rnge_drn_lum      spla_hru1597              null           snow001              null
     1598  hru1598                topohru1598           hyd1598             HPJ50      rnge_drn_lum      spla_hru1598              null           snow001              null
-    1599  hru1599                topohru1599           hyd1599             HPJ29          rnge_lum      spla_hru1599              null           snow001              null
-    1600  hru1600                topohru1600           hyd1600             HPJ29          rnge_lum      spla_hru1600              null           snow001              null
-    1601  hru1601                topohru1601           hyd1601             HPJ29          rnge_lum      spla_hru1601              null           snow001              null
-    1602  hru1602                topohru1602           hyd1602             HPJ29          rnge_lum      spla_hru1602              null           snow001              null
-    1603  hru1603                topohru1603           hyd1603             HPJ50          rnge_lum      spla_hru1603              null           snow001              null
-    1604  hru1604                topohru1604           hyd1604             HPJ29          rnge_lum      spla_hru1604              null           snow001              null
+    1599  hru1599                topohru1599           hyd1599             HPJ29      rnge_187_lum      spla_hru1599              null           snow001              null
+    1600  hru1600                topohru1600           hyd1600             HPJ29      rnge_188_lum      spla_hru1600              null           snow001              null
+    1601  hru1601                topohru1601           hyd1601             HPJ29      rnge_189_lum      spla_hru1601              null           snow001              null
+    1602  hru1602                topohru1602           hyd1602             HPJ29      rnge_190_lum      spla_hru1602              null           snow001              null
+    1603  hru1603                topohru1603           hyd1603             HPJ50      rnge_191_lum      spla_hru1603              null           snow001              null
+    1604  hru1604                topohru1604           hyd1604             HPJ29      rnge_192_lum      spla_hru1604              null           snow001              null
     1605  hru1605                topohru1605           hyd1605             HPJ71      rnge_drn_lum      spla_hru1605              null           snow001              null
-    1606  hru1606                topohru1606           hyd1606             HPJ64          rnge_lum      spla_hru1606              null           snow001              null
-    1607  hru1607                topohru1607           hyd1607             HPJ64          rnge_lum      spla_hru1607              null           snow001              null
+    1606  hru1606                topohru1606           hyd1606             HPJ64      rnge_193_lum      spla_hru1606              null           snow001              null
+    1607  hru1607                topohru1607           hyd1607             HPJ64      rnge_194_lum      spla_hru1607              null           snow001              null
     1608  hru1608                topohru1608           hyd1608             HPJ64      rnge_drn_lum      spla_hru1608              null           snow001              null
     1609  hru1609                topohru1609           hyd1609             HPJ64      rnge_drn_lum      spla_hru1609              null           snow001              null
-    1610  hru1610                topohru1610           hyd1610             HPJ50          rnge_lum      spla_hru1610              null           snow001              null
-    1611  hru1611                topohru1611           hyd1611             HPJ29          rnge_lum      spla_hru1611              null           snow001              null
-    1612  hru1612                topohru1612           hyd1612             HPJ29          rnge_lum      spla_hru1612              null           snow001              null
-    1613  hru1613                topohru1613           hyd1613             HPJ50          rnge_lum      spla_hru1613              null           snow001              null
+    1610  hru1610                topohru1610           hyd1610             HPJ50      rnge_195_lum      spla_hru1610              null           snow001              null
+    1611  hru1611                topohru1611           hyd1611             HPJ29      rnge_196_lum      spla_hru1611              null           snow001              null
+    1612  hru1612                topohru1612           hyd1612             HPJ29      rnge_197_lum      spla_hru1612              null           snow001              null
+    1613  hru1613                topohru1613           hyd1613             HPJ50      rnge_198_lum      spla_hru1613              null           snow001              null
     1614  hru1614                topohru1614           hyd1614             HPJ50      rnge_drn_lum      spla_hru1614              null           snow001              null
-    1615  hru1615                topohru1615           hyd1615             HPJ29          rnge_lum      spla_hru1615              null           snow001              null
-    1616  hru1616                topohru1616           hyd1616             HPJ29          rnge_lum      spla_hru1616              null           snow001              null
-    1617  hru1617                topohru1617           hyd1617             HPJ29          rnge_lum      spla_hru1617              null           snow001              null
-    1618  hru1618                topohru1618           hyd1618             HPJ29          rnge_lum      spla_hru1618              null           snow001              null
-    1619  hru1619                topohru1619           hyd1619             HPJ68          rnge_lum      spla_hru1619              null           snow001              null
-    1620  hru1620                topohru1620           hyd1620             HPJ29          rnge_lum      spla_hru1620              null           snow001              null
-    1621  hru1621                topohru1621           hyd1621             HPJ29          rnge_lum      spla_hru1621              null           snow001              null
+    1615  hru1615                topohru1615           hyd1615             HPJ29      rnge_199_lum      spla_hru1615              null           snow001              null
+    1616  hru1616                topohru1616           hyd1616             HPJ29      rnge_200_lum      spla_hru1616              null           snow001              null
+    1617  hru1617                topohru1617           hyd1617             HPJ29      rnge_201_lum      spla_hru1617              null           snow001              null
+    1618  hru1618                topohru1618           hyd1618             HPJ29      rnge_202_lum      spla_hru1618              null           snow001              null
+    1619  hru1619                topohru1619           hyd1619             HPJ68      rnge_203_lum      spla_hru1619              null           snow001              null
+    1620  hru1620                topohru1620           hyd1620             HPJ29      rnge_204_lum      spla_hru1620              null           snow001              null
+    1621  hru1621                topohru1621           hyd1621             HPJ29      rnge_205_lum      spla_hru1621              null           snow001              null
     1622  hru1622                topohru1622           hyd1622             HPJ68      rnge_drn_lum      spla_hru1622              null           snow001              null
     1623  hru1623                topohru1623           hyd1623             HPJ50      rnge_drn_lum      spla_hru1623              null           snow001              null
     1624  hru1624                topohru1624           hyd1624             HPJ68      rnge_drn_lum      spla_hru1624              null           snow001              null
-    1625  hru1625                topohru1625           hyd1625             HPJ29          rnge_lum      spla_hru1625              null           snow001              null
-    1626  hru1626                topohru1626           hyd1626             HPJ29          rnge_lum      spla_hru1626              null           snow001              null
+    1625  hru1625                topohru1625           hyd1625             HPJ29      rnge_206_lum      spla_hru1625              null           snow001              null
+    1626  hru1626                topohru1626           hyd1626             HPJ29      rnge_207_lum      spla_hru1626              null           snow001              null
     1627  hru1627                topohru1627           hyd1627             HPJ29      rnge_drn_lum      spla_hru1627              null           snow001              null
-    1628  hru1628                topohru1628           hyd1628             HPJ50          rnge_lum      spla_hru1628              null           snow001              null
-    1629  hru1629                topohru1629           hyd1629             HPJF2          rnge_lum      spla_hru1629              null           snow001              null
-    1630  hru1630                topohru1630           hyd1630             HPJ71          rnge_lum      spla_hru1630              null           snow001              null
-    1631  hru1631                topohru1631           hyd1631             HPJ29          rnge_lum      spla_hru1631              null           snow001              null
-    1632  hru1632                topohru1632           hyd1632             HPJ29          rnge_lum      spla_hru1632              null           snow001              null
-    1633  hru1633                topohru1633           hyd1633             HPJ37          rnge_lum      spla_hru1633              null           snow001              null
+    1628  hru1628                topohru1628           hyd1628             HPJ50      rnge_208_lum      spla_hru1628              null           snow001              null
+    1629  hru1629                topohru1629           hyd1629             HPJF2      rnge_209_lum      spla_hru1629              null           snow001              null
+    1630  hru1630                topohru1630           hyd1630             HPJ71      rnge_210_lum      spla_hru1630              null           snow001              null
+    1631  hru1631                topohru1631           hyd1631             HPJ29      rnge_211_lum      spla_hru1631              null           snow001              null
+    1632  hru1632                topohru1632           hyd1632             HPJ29      rnge_212_lum      spla_hru1632              null           snow001              null
+    1633  hru1633                topohru1633           hyd1633             HPJ37      rnge_213_lum      spla_hru1633              null           snow001              null
     1634  hru1634                topohru1634           hyd1634             HPJ29      rnge_drn_lum      spla_hru1634              null           snow001              null
-    1635  hru1635                topohru1635           hyd1635             HPJ47          rnge_lum      spla_hru1635              null           snow001              null
+    1635  hru1635                topohru1635           hyd1635             HPJ47      rnge_214_lum      spla_hru1635              null           snow001              null
     1636  hru1636                topohru1636           hyd1636             HPJ47      rnge_drn_lum      spla_hru1636              null           snow001              null
-    1637  hru1637                topohru1637           hyd1637             HPJ29          rnge_lum      spla_hru1637              null           snow001              null
-    1638  hru1638                topohru1638           hyd1638             HPJ29          rnge_lum      spla_hru1638              null           snow001              null
+    1637  hru1637                topohru1637           hyd1637             HPJ29      rnge_215_lum      spla_hru1637              null           snow001              null
+    1638  hru1638                topohru1638           hyd1638             HPJ29      rnge_216_lum      spla_hru1638              null           snow001              null
     1639  hru1639                topohru1639           hyd1639             HPJ47      rnge_drn_lum      spla_hru1639              null           snow001              null
-    1640  hru1640                topohru1640           hyd1640             HPJ50          rnge_lum      spla_hru1640              null           snow001              null
+    1640  hru1640                topohru1640           hyd1640             HPJ50      rnge_217_lum      spla_hru1640              null           snow001              null
     1641  hru1641                topohru1641           hyd1641             HPJ50      rnge_drn_lum      spla_hru1641              null           snow001              null
-    1642  hru1642                topohru1642           hyd1642             HPJ29          rnge_lum      spla_hru1642              null           snow001              null
-    1643  hru1643                topohru1643           hyd1643             HPJ47          rnge_lum      spla_hru1643              null           snow001              null
-    1644  hru1644                topohru1644           hyd1644             HPJF1          rnge_lum      spla_hru1644              null           snow001              null
+    1642  hru1642                topohru1642           hyd1642             HPJ29      rnge_218_lum      spla_hru1642              null           snow001              null
+    1643  hru1643                topohru1643           hyd1643             HPJ47      rnge_219_lum      spla_hru1643              null           snow001              null
+    1644  hru1644                topohru1644           hyd1644             HPJF1      rnge_220_lum      spla_hru1644              null           snow001              null
     1645  hru1645                topohru1645           hyd1645             HPJ47      rnge_drn_lum      spla_hru1645              null           snow001              null
-    1646  hru1646                topohru1646           hyd1646             HPJF1          rnge_lum      spla_hru1646              null           snow001              null
-    1647  hru1647                topohru1647           hyd1647             HPJ34          rnge_lum      spla_hru1647              null           snow001              null
-    1648  hru1648                topohru1648           hyd1648             HPJ34          rnge_lum      spla_hru1648              null           snow001              null
-    1649  hru1649                topohru1649           hyd1649             HPJ34          rnge_lum      spla_hru1649              null           snow001              null
-    1650  hru1650                topohru1650           hyd1650             HPJF3          rnge_lum      spla_hru1650              null           snow001              null
-    1651  hru1651                topohru1651           hyd1651             HPJ37          rnge_lum      spla_hru1651              null           snow001              null
-    1652  hru1652                topohru1652           hyd1652             HPJ68          rnge_lum      spla_hru1652              null           snow001              null
-    1653  hru1653                topohru1653           hyd1653             HPJ68          rnge_lum      spla_hru1653              null           snow001              null
+    1646  hru1646                topohru1646           hyd1646             HPJF1      rnge_221_lum      spla_hru1646              null           snow001              null
+    1647  hru1647                topohru1647           hyd1647             HPJ34      rnge_222_lum      spla_hru1647              null           snow001              null
+    1648  hru1648                topohru1648           hyd1648             HPJ34      rnge_223_lum      spla_hru1648              null           snow001              null
+    1649  hru1649                topohru1649           hyd1649             HPJ34      rnge_224_lum      spla_hru1649              null           snow001              null
+    1650  hru1650                topohru1650           hyd1650             HPJF3      rnge_225_lum      spla_hru1650              null           snow001              null
+    1651  hru1651                topohru1651           hyd1651             HPJ37      rnge_226_lum      spla_hru1651              null           snow001              null
+    1652  hru1652                topohru1652           hyd1652             HPJ68      rnge_227_lum      spla_hru1652              null           snow001              null
+    1653  hru1653                topohru1653           hyd1653             HPJ68      rnge_228_lum      spla_hru1653              null           snow001              null
     1654  hru1654                topohru1654           hyd1654             HPJ68      rnge_drn_lum      spla_hru1654              null           snow001              null
     1655  hru1655                topohru1655           hyd1655             HPJ50      rnge_drn_lum      spla_hru1655              null           snow001              null
     1656  hru1656                topohru1656           hyd1656             HPJ50      rnge_drn_lum      spla_hru1656              null           snow001              null
-    1657  hru1657                topohru1657           hyd1657             HPJF2          rnge_lum      spla_hru1657              null           snow001              null
-    1658  hru1658                topohru1658           hyd1658             HPJF2          rnge_lum      spla_hru1658              null           snow001              null
-    1659  hru1659                topohru1659           hyd1659             HPJ50          rnge_lum      spla_hru1659              null           snow001              null
-    1660  hru1660                topohru1660           hyd1660             HPJ68          rnge_lum      spla_hru1660              null           snow001              null
-    1661  hru1661                topohru1661           hyd1661             HPJ68          rnge_lum      spla_hru1661              null           snow001              null
-    1662  hru1662                topohru1662           hyd1662             HPJ29          rnge_lum      spla_hru1662              null           snow001              null
+    1657  hru1657                topohru1657           hyd1657             HPJF2      rnge_229_lum      spla_hru1657              null           snow001              null
+    1658  hru1658                topohru1658           hyd1658             HPJF2      rnge_230_lum      spla_hru1658              null           snow001              null
+    1659  hru1659                topohru1659           hyd1659             HPJ50      rnge_231_lum      spla_hru1659              null           snow001              null
+    1660  hru1660                topohru1660           hyd1660             HPJ68      rnge_232_lum      spla_hru1660              null           snow001              null
+    1661  hru1661                topohru1661           hyd1661             HPJ68      rnge_233_lum      spla_hru1661              null           snow001              null
+    1662  hru1662                topohru1662           hyd1662             HPJ29      rnge_234_lum      spla_hru1662              null           snow001              null
     1663  hru1663                topohru1663           hyd1663             HPJ68      rnge_drn_lum      spla_hru1663              null           snow001              null
-    1664  hru1664                topohru1664           hyd1664             HPJ29          rnge_lum      spla_hru1664              null           snow001              null
-    1665  hru1665                topohru1665           hyd1665             HPJ29          rnge_lum      spla_hru1665              null           snow001              null
+    1664  hru1664                topohru1664           hyd1664             HPJ29      rnge_235_lum      spla_hru1664              null           snow001              null
+    1665  hru1665                topohru1665           hyd1665             HPJ29      rnge_236_lum      spla_hru1665              null           snow001              null
     1666  hru1666                topohru1666           hyd1666             HPJ29      rnge_drn_lum      spla_hru1666              null           snow001              null
-    1667  hru1667                topohru1667           hyd1667             HPJ29          rnge_lum      spla_hru1667              null           snow001              null
-    1668  hru1668                topohru1668           hyd1668             HPJ29          rnge_lum      spla_hru1668              null           snow001              null
-    1669  hru1669                topohru1669           hyd1669             HPJ29          rnge_lum      spla_hru1669              null           snow001              null
-    1670  hru1670                topohru1670           hyd1670             HPJ47          rnge_lum      spla_hru1670              null           snow001              null
+    1667  hru1667                topohru1667           hyd1667             HPJ29      rnge_237_lum      spla_hru1667              null           snow001              null
+    1668  hru1668                topohru1668           hyd1668             HPJ29      rnge_238_lum      spla_hru1668              null           snow001              null
+    1669  hru1669                topohru1669           hyd1669             HPJ29      rnge_239_lum      spla_hru1669              null           snow001              null
+    1670  hru1670                topohru1670           hyd1670             HPJ47      rnge_240_lum      spla_hru1670              null           snow001              null
     1671  hru1671                topohru1671           hyd1671             HPJ47      rnge_drn_lum      spla_hru1671              null           snow001              null
-    1672  hru1672                topohru1672           hyd1672             HPJ47          rnge_lum      spla_hru1672              null           snow001              null
+    1672  hru1672                topohru1672           hyd1672             HPJ47      rnge_241_lum      spla_hru1672              null           snow001              null
     1673  hru1673                topohru1673           hyd1673             HPJ47      rnge_drn_lum      spla_hru1673              null           snow001              null
-    1674  hru1674                topohru1674           hyd1674             HPJ34          rnge_lum      spla_hru1674              null           snow001              null
-    1675  hru1675                topohru1675           hyd1675             HPJ50          rnge_lum      spla_hru1675              null           snow001              null
+    1674  hru1674                topohru1674           hyd1674             HPJ34      rnge_242_lum      spla_hru1674              null           snow001              null
+    1675  hru1675                topohru1675           hyd1675             HPJ50      rnge_243_lum      spla_hru1675              null           snow001              null
     1676  hru1676                topohru1676           hyd1676             HPJ50      rnge_drn_lum      spla_hru1676              null           snow001              null
-    1677  hru1677                topohru1677           hyd1677             HPJ34          rnge_lum      spla_hru1677              null           snow001              null
-    1678  hru1678                topohru1678           hyd1678             HPJ29          rnge_lum      spla_hru1678              null           snow001              null
-    1679  hru1679                topohru1679           hyd1679             HPJ29          rnge_lum      spla_hru1679              null           snow001              null
-    1680  hru1680                topohru1680           hyd1680             HPJ29          rnge_lum      spla_hru1680              null           snow001              null
-    1681  hru1681                topohru1681           hyd1681             HPJ29          rnge_lum      spla_hru1681              null           snow001              null
-    1682  hru1682                topohru1682           hyd1682             HPJ67          rnge_lum      spla_hru1682              null           snow001              null
-    1683  hru1683                topohru1683           hyd1683             HPJ29          rnge_lum      spla_hru1683              null           snow001              null
-    1684  hru1684                topohru1684           hyd1684             HPJ29          rnge_lum      spla_hru1684              null           snow001              null
-    1685  hru1685                topohru1685           hyd1685             HPJ29          rnge_lum      spla_hru1685              null           snow001              null
-    1686  hru1686                topohru1686           hyd1686             HPJ67          rnge_lum      spla_hru1686              null           snow001              null
+    1677  hru1677                topohru1677           hyd1677             HPJ34      rnge_244_lum      spla_hru1677              null           snow001              null
+    1678  hru1678                topohru1678           hyd1678             HPJ29      rnge_245_lum      spla_hru1678              null           snow001              null
+    1679  hru1679                topohru1679           hyd1679             HPJ29      rnge_246_lum      spla_hru1679              null           snow001              null
+    1680  hru1680                topohru1680           hyd1680             HPJ29      rnge_247_lum      spla_hru1680              null           snow001              null
+    1681  hru1681                topohru1681           hyd1681             HPJ29      rnge_248_lum      spla_hru1681              null           snow001              null
+    1682  hru1682                topohru1682           hyd1682             HPJ67      rnge_249_lum      spla_hru1682              null           snow001              null
+    1683  hru1683                topohru1683           hyd1683             HPJ29      rnge_250_lum      spla_hru1683              null           snow001              null
+    1684  hru1684                topohru1684           hyd1684             HPJ29      rnge_251_lum      spla_hru1684              null           snow001              null
+    1685  hru1685                topohru1685           hyd1685             HPJ29      rnge_252_lum      spla_hru1685              null           snow001              null
+    1686  hru1686                topohru1686           hyd1686             HPJ67      rnge_253_lum      spla_hru1686              null           snow001              null
     1687  hru1687                topohru1687           hyd1687             HPJ67      rnge_drn_lum      spla_hru1687              null           snow001              null
-    1688  hru1688                topohru1688           hyd1688             HPJ29          rnge_lum      spla_hru1688              null           snow001              null
-    1689  hru1689                topohru1689           hyd1689             HPJ29          rnge_lum      spla_hru1689              null           snow001              null
-    1690  hru1690                topohru1690           hyd1690             HPJ29          rnge_lum      spla_hru1690              null           snow001              null
-    1691  hru1691                topohru1691           hyd1691             HPJ29          rnge_lum      spla_hru1691              null           snow001              null
-    1692  hru1692                topohru1692           hyd1692             HPJ29          rnge_lum      spla_hru1692              null           snow001              null
-    1693  hru1693                topohru1693           hyd1693             HPJ29          rnge_lum      spla_hru1693              null           snow001              null
-    1694  hru1694                topohru1694           hyd1694             HPJ29          rnge_lum      spla_hru1694              null           snow001              null
+    1688  hru1688                topohru1688           hyd1688             HPJ29      rnge_254_lum      spla_hru1688              null           snow001              null
+    1689  hru1689                topohru1689           hyd1689             HPJ29      rnge_255_lum      spla_hru1689              null           snow001              null
+    1690  hru1690                topohru1690           hyd1690             HPJ29      rnge_256_lum      spla_hru1690              null           snow001              null
+    1691  hru1691                topohru1691           hyd1691             HPJ29      rnge_257_lum      spla_hru1691              null           snow001              null
+    1692  hru1692                topohru1692           hyd1692             HPJ29      rnge_258_lum      spla_hru1692              null           snow001              null
+    1693  hru1693                topohru1693           hyd1693             HPJ29      rnge_259_lum      spla_hru1693              null           snow001              null
+    1694  hru1694                topohru1694           hyd1694             HPJ29      rnge_260_lum      spla_hru1694              null           snow001              null
     1695  hru1695                topohru1695           hyd1695             HPJ29      rnge_drn_lum      spla_hru1695              null           snow001              null
-    1696  hru1696                topohru1696           hyd1696             HPJ29          rnge_lum      spla_hru1696              null           snow001              null
-    1697  hru1697                topohru1697           hyd1697             HPJ29          rnge_lum      spla_hru1697              null           snow001              null
+    1696  hru1696                topohru1696           hyd1696             HPJ29      rnge_261_lum      spla_hru1696              null           snow001              null
+    1697  hru1697                topohru1697           hyd1697             HPJ29      rnge_262_lum      spla_hru1697              null           snow001              null
     1698  hru1698                topohru1698           hyd1698             HPJ47      rnge_drn_lum      spla_hru1698              null           snow001              null
-    1699  hru1699                topohru1699           hyd1699             HPJ32          rnge_lum      spla_hru1699              null           snow001              null
-    1700  hru1700                topohru1700           hyd1700             HPJ68          rnge_lum      spla_hru1700              null           snow001              null
-    1701  hru1701                topohru1701           hyd1701             HPJ29          rnge_lum      spla_hru1701              null           snow001              null
-    1702  hru1702                topohru1702           hyd1702             HPJ29          rnge_lum      spla_hru1702              null           snow001              null
-    1703  hru1703                topohru1703           hyd1703             HPJ29          rnge_lum      spla_hru1703              null           snow001              null
-    1704  hru1704                topohru1704           hyd1704             HPJ29          rnge_lum      spla_hru1704              null           snow001              null
-    1705  hru1705                topohru1705           hyd1705             HPJ29          rnge_lum      spla_hru1705              null           snow001              null
-    1706  hru1706                topohru1706           hyd1706             HPJ64          rnge_lum      spla_hru1706              null           snow001              null
+    1699  hru1699                topohru1699           hyd1699             HPJ32      rnge_263_lum      spla_hru1699              null           snow001              null
+    1700  hru1700                topohru1700           hyd1700             HPJ68      rnge_264_lum      spla_hru1700              null           snow001              null
+    1701  hru1701                topohru1701           hyd1701             HPJ29      rnge_265_lum      spla_hru1701              null           snow001              null
+    1702  hru1702                topohru1702           hyd1702             HPJ29      rnge_266_lum      spla_hru1702              null           snow001              null
+    1703  hru1703                topohru1703           hyd1703             HPJ29      rnge_267_lum      spla_hru1703              null           snow001              null
+    1704  hru1704                topohru1704           hyd1704             HPJ29      rnge_268_lum      spla_hru1704              null           snow001              null
+    1705  hru1705                topohru1705           hyd1705             HPJ29      rnge_269_lum      spla_hru1705              null           snow001              null
+    1706  hru1706                topohru1706           hyd1706             HPJ64      rnge_270_lum      spla_hru1706              null           snow001              null
     1707  hru1707                topohru1707           hyd1707             HPJ64      rnge_drn_lum      spla_hru1707              null           snow001              null
     1708  hru1708                topohru1708           hyd1708             HPJ64      rnge_drn_lum      spla_hru1708              null           snow001              null
-    1709  hru1709                topohru1709           hyd1709             HPJ68          rnge_lum      spla_hru1709              null           snow001              null
-    1710  hru1710                topohru1710           hyd1710             HPJ29          rnge_lum      spla_hru1710              null           snow001              null
-    1711  hru1711                topohru1711           hyd1711             HPJ68          rnge_lum      spla_hru1711              null           snow001              null
+    1709  hru1709                topohru1709           hyd1709             HPJ68      rnge_271_lum      spla_hru1709              null           snow001              null
+    1710  hru1710                topohru1710           hyd1710             HPJ29      rnge_272_lum      spla_hru1710              null           snow001              null
+    1711  hru1711                topohru1711           hyd1711             HPJ68      rnge_273_lum      spla_hru1711              null           snow001              null
     1712  hru1712                topohru1712           hyd1712             HPJ68      rnge_drn_lum      spla_hru1712              null           snow001              null
-    1713  hru1713                topohru1713           hyd1713             HPJ47          rnge_lum      spla_hru1713              null           snow001              null
+    1713  hru1713                topohru1713           hyd1713             HPJ47      rnge_274_lum      spla_hru1713              null           snow001              null
     1714  hru1714                topohru1714           hyd1714             HPJ47      rnge_drn_lum      spla_hru1714              null           snow001              null
-    1715  hru1715                topohru1715           hyd1715             HPJ71          rnge_lum      spla_hru1715              null           snow001              null
-    1716  hru1716                topohru1716           hyd1716             HPJ71          rnge_lum      spla_hru1716              null           snow001              null
-    1717  hru1717                topohru1717           hyd1717             HPJ47          rnge_lum      spla_hru1717              null           snow001              null
-    1718  hru1718                topohru1718           hyd1718             HPJ71          rnge_lum      spla_hru1718              null           snow001              null
-    1719  hru1719                topohru1719           hyd1719             HPJ71          rnge_lum      spla_hru1719              null           snow001              null
-    1720  hru1720                topohru1720           hyd1720             HPJ71          rnge_lum      spla_hru1720              null           snow001              null
+    1715  hru1715                topohru1715           hyd1715             HPJ71      rnge_275_lum      spla_hru1715              null           snow001              null
+    1716  hru1716                topohru1716           hyd1716             HPJ71      rnge_276_lum      spla_hru1716              null           snow001              null
+    1717  hru1717                topohru1717           hyd1717             HPJ47      rnge_277_lum      spla_hru1717              null           snow001              null
+    1718  hru1718                topohru1718           hyd1718             HPJ71      rnge_278_lum      spla_hru1718              null           snow001              null
+    1719  hru1719                topohru1719           hyd1719             HPJ71      rnge_279_lum      spla_hru1719              null           snow001              null
+    1720  hru1720                topohru1720           hyd1720             HPJ71      rnge_280_lum      spla_hru1720              null           snow001              null
     1721  hru1721                topohru1721           hyd1721             HPJ71      rnge_drn_lum      spla_hru1721              null           snow001              null
     1722  hru1722                topohru1722           hyd1722             HPJ71      rnge_drn_lum      spla_hru1722              null           snow001              null
     1723  hru1723                topohru1723           hyd1723             HPJ71      rnge_drn_lum      spla_hru1723              null           snow001              null
     1724  hru1724                topohru1724           hyd1724             HPJ71      rnge_drn_lum      spla_hru1724              null           snow001              null
     1725  hru1725                topohru1725           hyd1725             HPJ71      rnge_drn_lum      spla_hru1725              null           snow001              null
-    1726  hru1726                topohru1726           hyd1726             HPJ50          rnge_lum      spla_hru1726              null           snow001              null
+    1726  hru1726                topohru1726           hyd1726             HPJ50      rnge_281_lum      spla_hru1726              null           snow001              null
     1727  hru1727                topohru1727           hyd1727             HPJ50      rnge_drn_lum      spla_hru1727              null           snow001              null
-    1728  hru1728                topohru1728           hyd1728             HPJ32          rnge_lum      spla_hru1728              null           snow001              null
-    1729  hru1729                topohru1729           hyd1729             HPJ29          rnge_lum      spla_hru1729              null           snow001              null
-    1730  hru1730                topohru1730           hyd1730             HPJ29          rnge_lum      spla_hru1730              null           snow001              null
-    1731  hru1731                topohru1731           hyd1731             HPJ29          rnge_lum      spla_hru1731              null           snow001              null
-    1732  hru1732                topohru1732           hyd1732             HPJ29          rnge_lum      spla_hru1732              null           snow001              null
+    1728  hru1728                topohru1728           hyd1728             HPJ32      rnge_282_lum      spla_hru1728              null           snow001              null
+    1729  hru1729                topohru1729           hyd1729             HPJ29      rnge_283_lum      spla_hru1729              null           snow001              null
+    1730  hru1730                topohru1730           hyd1730             HPJ29      rnge_284_lum      spla_hru1730              null           snow001              null
+    1731  hru1731                topohru1731           hyd1731             HPJ29      rnge_285_lum      spla_hru1731              null           snow001              null
+    1732  hru1732                topohru1732           hyd1732             HPJ29      rnge_286_lum      spla_hru1732              null           snow001              null
     1733  hru1733                topohru1733           hyd1733             HPJ47      rnge_drn_lum      spla_hru1733              null           snow001              null
-    1734  hru1734                topohru1734           hyd1734             HPJ29          rnge_lum      spla_hru1734              null           snow001              null
-    1735  hru1735                topohru1735           hyd1735             HPJ29          rnge_lum      spla_hru1735              null           snow001              null
+    1734  hru1734                topohru1734           hyd1734             HPJ29      rnge_287_lum      spla_hru1734              null           snow001              null
+    1735  hru1735                topohru1735           hyd1735             HPJ29      rnge_288_lum      spla_hru1735              null           snow001              null
     1736  hru1736                topohru1736           hyd1736             HPJ29      rnge_drn_lum      spla_hru1736              null           snow001              null
     1737  hru1737                topohru1737           hyd1737             HPJ29      rnge_drn_lum      spla_hru1737              null           snow001              null
     1738  hru1738                topohru1738           hyd1738             HPJ50      rnge_drn_lum      spla_hru1738              null           snow001              null
-    1739  hru1739                topohru1739           hyd1739             HPJ29          rnge_lum      spla_hru1739              null           snow001              null
-    1740  hru1740                topohru1740           hyd1740             HPJ47          rnge_lum      spla_hru1740              null           snow001              null
-    1741  hru1741                topohru1741           hyd1741             HPJ47          rnge_lum      spla_hru1741              null           snow001              null
-    1742  hru1742                topohru1742           hyd1742             HPJ29          rnge_lum      spla_hru1742              null           snow001              null
+    1739  hru1739                topohru1739           hyd1739             HPJ29      rnge_289_lum      spla_hru1739              null           snow001              null
+    1740  hru1740                topohru1740           hyd1740             HPJ47      rnge_290_lum      spla_hru1740              null           snow001              null
+    1741  hru1741                topohru1741           hyd1741             HPJ47      rnge_291_lum      spla_hru1741              null           snow001              null
+    1742  hru1742                topohru1742           hyd1742             HPJ29      rnge_292_lum      spla_hru1742              null           snow001              null
     1743  hru1743                topohru1743           hyd1743             HPJ29      rnge_drn_lum      spla_hru1743              null           snow001              null
     1744  hru1744                topohru1744           hyd1744             HPJ29      rnge_drn_lum      spla_hru1744              null           snow001              null
-    1745  hru1745                topohru1745           hyd1745             HPJ50          rnge_lum      spla_hru1745              null           snow001              null
+    1745  hru1745                topohru1745           hyd1745             HPJ50      rnge_293_lum      spla_hru1745              null           snow001              null
     1746  hru1746                topohru1746           hyd1746             HPJ50      rnge_drn_lum      spla_hru1746              null           snow001              null
     1747  hru1747                topohru1747           hyd1747             HPJ50      rnge_drn_lum      spla_hru1747              null           snow001              null
-    1748  hru1748                topohru1748           hyd1748             HPJ29          rnge_lum      spla_hru1748              null           snow001              null
-    1749  hru1749                topohru1749           hyd1749             HPJ29          rnge_lum      spla_hru1749              null           snow001              null
+    1748  hru1748                topohru1748           hyd1748             HPJ29      rnge_294_lum      spla_hru1748              null           snow001              null
+    1749  hru1749                topohru1749           hyd1749             HPJ29      rnge_295_lum      spla_hru1749              null           snow001              null
     1750  hru1750                topohru1750           hyd1750             HPJ47      rnge_drn_lum      spla_hru1750              null           snow001              null
     1751  hru1751                topohru1751           hyd1751             HPJ47      rnge_drn_lum      spla_hru1751              null           snow001              null
     1752  hru1752                topohru1752           hyd1752             HPJ68      rnge_drn_lum      spla_hru1752              null           snow001              null
@@ -1757,158 +1757,158 @@ hru-data.hru: written by SWAT+ editor v2.1.0 on 2023-05-02 16:02 for SWAT+ rev.6
     1755  hru1755                topohru1755           hyd1755             HPJ68      rnge_drn_lum      spla_hru1755              null           snow001              null
     1756  hru1756                topohru1756           hyd1756             HPJ68      rnge_drn_lum      spla_hru1756              null           snow001              null
     1757  hru1757                topohru1757           hyd1757             HPJ68      rnge_drn_lum      spla_hru1757              null           snow001              null
-    1758  hru1758                topohru1758           hyd1758             HPJ50          rnge_lum      spla_hru1758              null           snow001              null
-    1759  hru1759                topohru1759           hyd1759             HPJ50          rnge_lum      spla_hru1759              null           snow001              null
+    1758  hru1758                topohru1758           hyd1758             HPJ50      rnge_296_lum      spla_hru1758              null           snow001              null
+    1759  hru1759                topohru1759           hyd1759             HPJ50      rnge_297_lum      spla_hru1759              null           snow001              null
     1760  hru1760                topohru1760           hyd1760             HPJ50      rnge_drn_lum      spla_hru1760              null           snow001              null
-    1761  hru1761                topohru1761           hyd1761             HPJ32          rnge_lum      spla_hru1761              null           snow001              null
-    1762  hru1762                topohru1762           hyd1762             HPJ29          rnge_lum      spla_hru1762              null           snow001              null
-    1763  hru1763                topohru1763           hyd1763             HPJ29          rnge_lum      spla_hru1763              null           snow001              null
+    1761  hru1761                topohru1761           hyd1761             HPJ32      rnge_298_lum      spla_hru1761              null           snow001              null
+    1762  hru1762                topohru1762           hyd1762             HPJ29      rnge_299_lum      spla_hru1762              null           snow001              null
+    1763  hru1763                topohru1763           hyd1763             HPJ29      rnge_300_lum      spla_hru1763              null           snow001              null
     1764  hru1764                topohru1764           hyd1764             HPJ29      rnge_drn_lum      spla_hru1764              null           snow001              null
-    1765  hru1765                topohru1765           hyd1765             HPJ29          rnge_lum      spla_hru1765              null           snow001              null
-    1766  hru1766                topohru1766           hyd1766             HPJ50          rnge_lum      spla_hru1766              null           snow001              null
-    1767  hru1767                topohru1767           hyd1767             HPJ50          rnge_lum      spla_hru1767              null           snow001              null
+    1765  hru1765                topohru1765           hyd1765             HPJ29      rnge_301_lum      spla_hru1765              null           snow001              null
+    1766  hru1766                topohru1766           hyd1766             HPJ50      rnge_302_lum      spla_hru1766              null           snow001              null
+    1767  hru1767                topohru1767           hyd1767             HPJ50      rnge_303_lum      spla_hru1767              null           snow001              null
     1768  hru1768                topohru1768           hyd1768             HPJ50      rnge_drn_lum      spla_hru1768              null           snow001              null
-    1769  hru1769                topohru1769           hyd1769             HPJ64          rnge_lum      spla_hru1769              null           snow001              null
-    1770  hru1770                topohru1770           hyd1770             HPJ32          rnge_lum      spla_hru1770              null           snow001              null
-    1771  hru1771                topohru1771           hyd1771             HPJ58          rnge_lum      spla_hru1771              null           snow001              null
-    1772  hru1772                topohru1772           hyd1772             HPJ58          rnge_lum      spla_hru1772              null           snow001              null
-    1773  hru1773                topohru1773           hyd1773             HPJ58          rnge_lum      spla_hru1773              null           snow001              null
+    1769  hru1769                topohru1769           hyd1769             HPJ64      rnge_304_lum      spla_hru1769              null           snow001              null
+    1770  hru1770                topohru1770           hyd1770             HPJ32      rnge_305_lum      spla_hru1770              null           snow001              null
+    1771  hru1771                topohru1771           hyd1771             HPJ58      rnge_306_lum      spla_hru1771              null           snow001              null
+    1772  hru1772                topohru1772           hyd1772             HPJ58      rnge_307_lum      spla_hru1772              null           snow001              null
+    1773  hru1773                topohru1773           hyd1773             HPJ58      rnge_308_lum      spla_hru1773              null           snow001              null
     1774  hru1774                topohru1774           hyd1774             HPJ58      rnge_drn_lum      spla_hru1774              null           snow001              null
-    1775  hru1775                topohru1775           hyd1775             HPJ29          rnge_lum      spla_hru1775              null           snow001              null
-    1776  hru1776                topohru1776           hyd1776             HPJ50          rnge_lum      spla_hru1776              null           snow001              null
-    1777  hru1777                topohru1777           hyd1777             HPJ50          rnge_lum      spla_hru1777              null           snow001              null
+    1775  hru1775                topohru1775           hyd1775             HPJ29      rnge_309_lum      spla_hru1775              null           snow001              null
+    1776  hru1776                topohru1776           hyd1776             HPJ50      rnge_310_lum      spla_hru1776              null           snow001              null
+    1777  hru1777                topohru1777           hyd1777             HPJ50      rnge_311_lum      spla_hru1777              null           snow001              null
     1778  hru1778                topohru1778           hyd1778             HPJ32      rnge_drn_lum      spla_hru1778              null           snow001              null
     1779  hru1779                topohru1779           hyd1779             HPJ29      rnge_drn_lum      spla_hru1779              null           snow001              null
     1780  hru1780                topohru1780           hyd1780             HPJ50      rnge_drn_lum      spla_hru1780              null           snow001              null
     1781  hru1781                topohru1781           hyd1781             HPJ50      rnge_drn_lum      spla_hru1781              null           snow001              null
-    1782  hru1782                topohru1782           hyd1782             HPJ29          rnge_lum      spla_hru1782              null           snow001              null
-    1783  hru1783                topohru1783           hyd1783             HPJ29          rnge_lum      spla_hru1783              null           snow001              null
-    1784  hru1784                topohru1784           hyd1784             HPJ29          rnge_lum      spla_hru1784              null           snow001              null
-    1785  hru1785                topohru1785           hyd1785             HPJ68          rnge_lum      spla_hru1785              null           snow001              null
-    1786  hru1786                topohru1786           hyd1786             HPJ68          rnge_lum      spla_hru1786              null           snow001              null
+    1782  hru1782                topohru1782           hyd1782             HPJ29      rnge_312_lum      spla_hru1782              null           snow001              null
+    1783  hru1783                topohru1783           hyd1783             HPJ29      rnge_313_lum      spla_hru1783              null           snow001              null
+    1784  hru1784                topohru1784           hyd1784             HPJ29      rnge_314_lum      spla_hru1784              null           snow001              null
+    1785  hru1785                topohru1785           hyd1785             HPJ68      rnge_315_lum      spla_hru1785              null           snow001              null
+    1786  hru1786                topohru1786           hyd1786             HPJ68      rnge_316_lum      spla_hru1786              null           snow001              null
     1787  hru1787                topohru1787           hyd1787             HPJ68      rnge_drn_lum      spla_hru1787              null           snow001              null
     1788  hru1788                topohru1788           hyd1788             HPJ68      rnge_drn_lum      spla_hru1788              null           snow001              null
-    1789  hru1789                topohru1789           hyd1789             HPJ50          rnge_lum      spla_hru1789              null           snow001              null
-    1790  hru1790                topohru1790           hyd1790             HPJ64          rnge_lum      spla_hru1790              null           snow001              null
+    1789  hru1789                topohru1789           hyd1789             HPJ50      rnge_317_lum      spla_hru1789              null           snow001              null
+    1790  hru1790                topohru1790           hyd1790             HPJ64      rnge_318_lum      spla_hru1790              null           snow001              null
     1791  hru1791                topohru1791           hyd1791             HPJ40      rnge_drn_lum      spla_hru1791              null           snow001              null
     1792  hru1792                topohru1792           hyd1792             HPJ58      rnge_drn_lum      spla_hru1792              null           snow001              null
     1793  hru1793                topohru1793           hyd1793             HPJ58      rnge_drn_lum      spla_hru1793              null           snow001              null
     1794  hru1794                topohru1794           hyd1794             HPJ58      rnge_drn_lum      spla_hru1794              null           snow001              null
     1795  hru1795                topohru1795           hyd1795             HPJ58      rnge_drn_lum      spla_hru1795              null           snow001              null
-    1796  hru1796                topohru1796           hyd1796             HPJ67          rnge_lum      spla_hru1796              null           snow001              null
-    1797  hru1797                topohru1797           hyd1797             HPJ73          rnge_lum      spla_hru1797              null           snow001              null
-    1798  hru1798                topohru1798           hyd1798             HPJ29          rnge_lum      spla_hru1798              null           snow001              null
-    1799  hru1799                topohru1799           hyd1799             HPJ64          rnge_lum      spla_hru1799              null           snow001              null
-    1800  hru1800                topohru1800           hyd1800             HPJ50          rnge_lum      spla_hru1800              null           snow001              null
-    1801  hru1801                topohru1801           hyd1801             HPJ29          rnge_lum      spla_hru1801              null           snow001              null
+    1796  hru1796                topohru1796           hyd1796             HPJ67      rnge_319_lum      spla_hru1796              null           snow001              null
+    1797  hru1797                topohru1797           hyd1797             HPJ73      rnge_320_lum      spla_hru1797              null           snow001              null
+    1798  hru1798                topohru1798           hyd1798             HPJ29      rnge_321_lum      spla_hru1798              null           snow001              null
+    1799  hru1799                topohru1799           hyd1799             HPJ64      rnge_322_lum      spla_hru1799              null           snow001              null
+    1800  hru1800                topohru1800           hyd1800             HPJ50      rnge_323_lum      spla_hru1800              null           snow001              null
+    1801  hru1801                topohru1801           hyd1801             HPJ29      rnge_324_lum      spla_hru1801              null           snow001              null
     1802  hru1802                topohru1802           hyd1802             HPJ64      rnge_drn_lum      spla_hru1802              null           snow001              null
-    1803  hru1803                topohru1803           hyd1803             HPJ29          rnge_lum      spla_hru1803              null           snow001              null
-    1804  hru1804                topohru1804           hyd1804             HPJ34          rnge_lum      spla_hru1804              null           snow001              null
-    1805  hru1805                topohru1805           hyd1805             HPJ29          rnge_lum      spla_hru1805              null           snow001              null
-    1806  hru1806                topohru1806           hyd1806             HPJ29          rnge_lum      spla_hru1806              null           snow001              null
-    1807  hru1807                topohru1807           hyd1807             HPJ47          rnge_lum      spla_hru1807              null           snow001              null
+    1803  hru1803                topohru1803           hyd1803             HPJ29      rnge_325_lum      spla_hru1803              null           snow001              null
+    1804  hru1804                topohru1804           hyd1804             HPJ34      rnge_326_lum      spla_hru1804              null           snow001              null
+    1805  hru1805                topohru1805           hyd1805             HPJ29      rnge_327_lum      spla_hru1805              null           snow001              null
+    1806  hru1806                topohru1806           hyd1806             HPJ29      rnge_328_lum      spla_hru1806              null           snow001              null
+    1807  hru1807                topohru1807           hyd1807             HPJ47      rnge_329_lum      spla_hru1807              null           snow001              null
     1808  hru1808                topohru1808           hyd1808             HPJ47      rnge_drn_lum      spla_hru1808              null           snow001              null
-    1809  hru1809                topohru1809           hyd1809             HPJ50          rnge_lum      spla_hru1809              null           snow001              null
+    1809  hru1809                topohru1809           hyd1809             HPJ50      rnge_330_lum      spla_hru1809              null           snow001              null
     1810  hru1810                topohru1810           hyd1810             HPJ50      rnge_drn_lum      spla_hru1810              null           snow001              null
     1811  hru1811                topohru1811           hyd1811             HPJ67      rnge_drn_lum      spla_hru1811              null           snow001              null
-    1812  hru1812                topohru1812           hyd1812             HPJ64          rnge_lum      spla_hru1812              null           snow001              null
-    1813  hru1813                topohru1813           hyd1813             HPJ64          rnge_lum      spla_hru1813              null           snow001              null
-    1814  hru1814                topohru1814           hyd1814             HPJ29          rnge_lum      spla_hru1814              null           snow001              null
-    1815  hru1815                topohru1815           hyd1815             HPJ64          rnge_lum      spla_hru1815              null           snow001              null
-    1816  hru1816                topohru1816           hyd1816             HPJ29          rnge_lum      spla_hru1816              null           snow001              null
-    1817  hru1817                topohru1817           hyd1817             HPJ50          rnge_lum      spla_hru1817              null           snow001              null
-    1818  hru1818                topohru1818           hyd1818             HPJF3          rnge_lum      spla_hru1818              null           snow001              null
-    1819  hru1819                topohru1819           hyd1819             HPJ64          rnge_lum      spla_hru1819              null           snow001              null
+    1812  hru1812                topohru1812           hyd1812             HPJ64      rnge_331_lum      spla_hru1812              null           snow001              null
+    1813  hru1813                topohru1813           hyd1813             HPJ64      rnge_332_lum      spla_hru1813              null           snow001              null
+    1814  hru1814                topohru1814           hyd1814             HPJ29      rnge_333_lum      spla_hru1814              null           snow001              null
+    1815  hru1815                topohru1815           hyd1815             HPJ64      rnge_334_lum      spla_hru1815              null           snow001              null
+    1816  hru1816                topohru1816           hyd1816             HPJ29      rnge_335_lum      spla_hru1816              null           snow001              null
+    1817  hru1817                topohru1817           hyd1817             HPJ50      rnge_336_lum      spla_hru1817              null           snow001              null
+    1818  hru1818                topohru1818           hyd1818             HPJF3      rnge_337_lum      spla_hru1818              null           snow001              null
+    1819  hru1819                topohru1819           hyd1819             HPJ64      rnge_338_lum      spla_hru1819              null           snow001              null
     1820  hru1820                topohru1820           hyd1820             HPJ50      rnge_drn_lum      spla_hru1820              null           snow001              null
     1821  hru1821                topohru1821           hyd1821             HPJ29      rnge_drn_lum      spla_hru1821              null           snow001              null
     1822  hru1822                topohru1822           hyd1822             HPJ64      rnge_drn_lum      spla_hru1822              null           snow001              null
     1823  hru1823                topohru1823           hyd1823             HPJ64      rnge_drn_lum      spla_hru1823              null           snow001              null
     1824  hru1824                topohru1824           hyd1824             HPJ64      rnge_drn_lum      spla_hru1824              null           snow001              null
     1825  hru1825                topohru1825           hyd1825             HPJ64      rnge_drn_lum      spla_hru1825              null           snow001              null
-    1826  hru1826                topohru1826           hyd1826             HPJ29          rnge_lum      spla_hru1826              null           snow001              null
-    1827  hru1827                topohru1827           hyd1827             HPJ29          rnge_lum      spla_hru1827              null           snow001              null
-    1828  hru1828                topohru1828           hyd1828             HPJ50          rnge_lum      spla_hru1828              null           snow001              null
-    1829  hru1829                topohru1829           hyd1829             HPJ29          rnge_lum      spla_hru1829              null           snow001              null
+    1826  hru1826                topohru1826           hyd1826             HPJ29      rnge_339_lum      spla_hru1826              null           snow001              null
+    1827  hru1827                topohru1827           hyd1827             HPJ29      rnge_340_lum      spla_hru1827              null           snow001              null
+    1828  hru1828                topohru1828           hyd1828             HPJ50      rnge_341_lum      spla_hru1828              null           snow001              null
+    1829  hru1829                topohru1829           hyd1829             HPJ29      rnge_342_lum      spla_hru1829              null           snow001              null
     1830  hru1830                topohru1830           hyd1830             HPJ50      rnge_drn_lum      spla_hru1830              null           snow001              null
-    1831  hru1831                topohru1831           hyd1831             HPJ50          rnge_lum      spla_hru1831              null           snow001              null
-    1832  hru1832                topohru1832           hyd1832             HPJ29          rnge_lum      spla_hru1832              null           snow001              null
-    1833  hru1833                topohru1833           hyd1833             HPJ29          rnge_lum      spla_hru1833              null           snow001              null
-    1834  hru1834                topohru1834           hyd1834             HPJ29          rnge_lum      spla_hru1834              null           snow001              null
+    1831  hru1831                topohru1831           hyd1831             HPJ50      rnge_343_lum      spla_hru1831              null           snow001              null
+    1832  hru1832                topohru1832           hyd1832             HPJ29      rnge_344_lum      spla_hru1832              null           snow001              null
+    1833  hru1833                topohru1833           hyd1833             HPJ29      rnge_345_lum      spla_hru1833              null           snow001              null
+    1834  hru1834                topohru1834           hyd1834             HPJ29      rnge_346_lum      spla_hru1834              null           snow001              null
     1835  hru1835                topohru1835           hyd1835             HPJ50      rnge_drn_lum      spla_hru1835              null           snow001              null
-    1836  hru1836                topohru1836           hyd1836             HPJ29          rnge_lum      spla_hru1836              null           snow001              null
-    1837  hru1837                topohru1837           hyd1837             HPJ64          rnge_lum      spla_hru1837              null           snow001              null
+    1836  hru1836                topohru1836           hyd1836             HPJ29      rnge_347_lum      spla_hru1836              null           snow001              null
+    1837  hru1837                topohru1837           hyd1837             HPJ64      rnge_348_lum      spla_hru1837              null           snow001              null
     1838  hru1838                topohru1838           hyd1838             HPJ67      rnge_drn_lum      spla_hru1838              null           snow001              null
-    1839  hru1839                topohru1839           hyd1839             HPJ29          rnge_lum      spla_hru1839              null           snow001              null
-    1840  hru1840                topohru1840           hyd1840             HPJ29          rnge_lum      spla_hru1840              null           snow001              null
+    1839  hru1839                topohru1839           hyd1839             HPJ29      rnge_349_lum      spla_hru1839              null           snow001              null
+    1840  hru1840                topohru1840           hyd1840             HPJ29      rnge_350_lum      spla_hru1840              null           snow001              null
     1841  hru1841                topohru1841           hyd1841             HPJ73      rnge_drn_lum      spla_hru1841              null           snow001              null
     1842  hru1842                topohru1842           hyd1842             HPJ68      rnge_drn_lum      spla_hru1842              null           snow001              null
     1843  hru1843                topohru1843           hyd1843             HPJ68      rnge_drn_lum      spla_hru1843              null           snow001              null
-    1844  hru1844                topohru1844           hyd1844             HPJ29          rnge_lum      spla_hru1844              null           snow001              null
-    1845  hru1845                topohru1845           hyd1845             HPJF3          rnge_lum      spla_hru1845              null           snow001              null
-    1846  hru1846                topohru1846           hyd1846             HPJ29          rnge_lum      spla_hru1846              null           snow001              null
-    1847  hru1847                topohru1847           hyd1847             HPJ29          rnge_lum      spla_hru1847              null           snow001              null
-    1848  hru1848                topohru1848           hyd1848             HPJ29          rnge_lum      spla_hru1848              null           snow001              null
+    1844  hru1844                topohru1844           hyd1844             HPJ29      rnge_351_lum      spla_hru1844              null           snow001              null
+    1845  hru1845                topohru1845           hyd1845             HPJF3      rnge_352_lum      spla_hru1845              null           snow001              null
+    1846  hru1846                topohru1846           hyd1846             HPJ29      rnge_353_lum      spla_hru1846              null           snow001              null
+    1847  hru1847                topohru1847           hyd1847             HPJ29      rnge_354_lum      spla_hru1847              null           snow001              null
+    1848  hru1848                topohru1848           hyd1848             HPJ29      rnge_355_lum      spla_hru1848              null           snow001              null
     1849  hru1849                topohru1849           hyd1849             HPJ29      rnge_drn_lum      spla_hru1849              null           snow001              null
     1850  hru1850                topohru1850           hyd1850             HPJ64      rnge_drn_lum      spla_hru1850              null           snow001              null
     1851  hru1851                topohru1851           hyd1851             HPJ64      rnge_drn_lum      spla_hru1851              null           snow001              null
-    1852  hru1852                topohru1852           hyd1852             HPJ73          rnge_lum      spla_hru1852              null           snow001              null
-    1853  hru1853                topohru1853           hyd1853             HPJ73          rnge_lum      spla_hru1853              null           snow001              null
-    1854  hru1854                topohru1854           hyd1854             HPJ50          rnge_lum      spla_hru1854              null           snow001              null
+    1852  hru1852                topohru1852           hyd1852             HPJ73      rnge_356_lum      spla_hru1852              null           snow001              null
+    1853  hru1853                topohru1853           hyd1853             HPJ73      rnge_357_lum      spla_hru1853              null           snow001              null
+    1854  hru1854                topohru1854           hyd1854             HPJ50      rnge_358_lum      spla_hru1854              null           snow001              null
     1855  hru1855                topohru1855           hyd1855             HPJ50      rnge_drn_lum      spla_hru1855              null           snow001              null
     1856  hru1856                topohru1856           hyd1856             HPJ50      rnge_drn_lum      spla_hru1856              null           snow001              null
-    1857  hru1857                topohru1857           hyd1857             HPJ50          rnge_lum      spla_hru1857              null           snow001              null
-    1858  hru1858                topohru1858           hyd1858             HPJ67          rnge_lum      spla_hru1858              null           snow001              null
-    1859  hru1859                topohru1859           hyd1859             HPJ29          rnge_lum      spla_hru1859              null           snow001              null
-    1860  hru1860                topohru1860           hyd1860             HPJ29          rnge_lum      spla_hru1860              null           snow001              null
-    1861  hru1861                topohru1861           hyd1861             HPJ29          rnge_lum      spla_hru1861              null           snow001              null
+    1857  hru1857                topohru1857           hyd1857             HPJ50      rnge_359_lum      spla_hru1857              null           snow001              null
+    1858  hru1858                topohru1858           hyd1858             HPJ67      rnge_360_lum      spla_hru1858              null           snow001              null
+    1859  hru1859                topohru1859           hyd1859             HPJ29      rnge_361_lum      spla_hru1859              null           snow001              null
+    1860  hru1860                topohru1860           hyd1860             HPJ29      rnge_362_lum      spla_hru1860              null           snow001              null
+    1861  hru1861                topohru1861           hyd1861             HPJ29      rnge_363_lum      spla_hru1861              null           snow001              null
     1862  hru1862                topohru1862           hyd1862             HPJ29      rnge_drn_lum      spla_hru1862              null           snow001              null
     1863  hru1863                topohru1863           hyd1863             HPJ50      rnge_drn_lum      spla_hru1863              null           snow001              null
-    1864  hru1864                topohru1864           hyd1864             HPJ40          rnge_lum      spla_hru1864              null           snow001              null
-    1865  hru1865                topohru1865           hyd1865             HPJ29          rnge_lum      spla_hru1865              null           snow001              null
-    1866  hru1866                topohru1866           hyd1866             HPJ68          rnge_lum      spla_hru1866              null           snow001              null
-    1867  hru1867                topohru1867           hyd1867             HPJ68          rnge_lum      spla_hru1867              null           snow001              null
-    1868  hru1868                topohru1868           hyd1868             HPJ68          rnge_lum      spla_hru1868              null           snow001              null
-    1869  hru1869                topohru1869           hyd1869             HPJ68          rnge_lum      spla_hru1869              null           snow001              null
-    1870  hru1870                topohru1870           hyd1870             HPJ68          rnge_lum      spla_hru1870              null           snow001              null
+    1864  hru1864                topohru1864           hyd1864             HPJ40      rnge_364_lum      spla_hru1864              null           snow001              null
+    1865  hru1865                topohru1865           hyd1865             HPJ29      rnge_365_lum      spla_hru1865              null           snow001              null
+    1866  hru1866                topohru1866           hyd1866             HPJ68      rnge_366_lum      spla_hru1866              null           snow001              null
+    1867  hru1867                topohru1867           hyd1867             HPJ68      rnge_367_lum      spla_hru1867              null           snow001              null
+    1868  hru1868                topohru1868           hyd1868             HPJ68      rnge_368_lum      spla_hru1868              null           snow001              null
+    1869  hru1869                topohru1869           hyd1869             HPJ68      rnge_369_lum      spla_hru1869              null           snow001              null
+    1870  hru1870                topohru1870           hyd1870             HPJ68      rnge_370_lum      spla_hru1870              null           snow001              null
     1871  hru1871                topohru1871           hyd1871             HPJ68      rnge_drn_lum      spla_hru1871              null           snow001              null
     1872  hru1872                topohru1872           hyd1872             HPJ68      rnge_drn_lum      spla_hru1872              null           snow001              null
     1873  hru1873                topohru1873           hyd1873             HPJ68      rnge_drn_lum      spla_hru1873              null           snow001              null
-    1874  hru1874                topohru1874           hyd1874             HPJ29          rnge_lum      spla_hru1874              null           snow001              null
-    1875  hru1875                topohru1875           hyd1875             HPJ29          rnge_lum      spla_hru1875              null           snow001              null
-    1876  hru1876                topohru1876           hyd1876             HPJ40          rnge_lum      spla_hru1876              null           snow001              null
-    1877  hru1877                topohru1877           hyd1877             HPJ29          rnge_lum      spla_hru1877              null           snow001              null
-    1878  hru1878                topohru1878           hyd1878             HPJ64          rnge_lum      spla_hru1878              null           snow001              null
-    1879  hru1879                topohru1879           hyd1879             HPJ68          rnge_lum      spla_hru1879              null           snow001              null
+    1874  hru1874                topohru1874           hyd1874             HPJ29      rnge_371_lum      spla_hru1874              null           snow001              null
+    1875  hru1875                topohru1875           hyd1875             HPJ29      rnge_372_lum      spla_hru1875              null           snow001              null
+    1876  hru1876                topohru1876           hyd1876             HPJ40      rnge_373_lum      spla_hru1876              null           snow001              null
+    1877  hru1877                topohru1877           hyd1877             HPJ29      rnge_374_lum      spla_hru1877              null           snow001              null
+    1878  hru1878                topohru1878           hyd1878             HPJ64      rnge_375_lum      spla_hru1878              null           snow001              null
+    1879  hru1879                topohru1879           hyd1879             HPJ68      rnge_376_lum      spla_hru1879              null           snow001              null
     1880  hru1880                topohru1880           hyd1880             HPJ64      rnge_drn_lum      spla_hru1880              null           snow001              null
     1881  hru1881                topohru1881           hyd1881             HPJ29      rnge_drn_lum      spla_hru1881              null           snow001              null
     1882  hru1882                topohru1882           hyd1882             HPJ68      rnge_drn_lum      spla_hru1882              null           snow001              null
     1883  hru1883                topohru1883           hyd1883             HPJ68      rnge_drn_lum      spla_hru1883              null           snow001              null
-    1884  hru1884                topohru1884           hyd1884             HPJ29          rnge_lum      spla_hru1884              null           snow001              null
-    1885  hru1885                topohru1885           hyd1885             HPJ29          rnge_lum      spla_hru1885              null           snow001              null
-    1886  hru1886                topohru1886           hyd1886             HPJ29          rnge_lum      spla_hru1886              null           snow001              null
-    1887  hru1887                topohru1887           hyd1887             HPJ50          rnge_lum      spla_hru1887              null           snow001              null
-    1888  hru1888                topohru1888           hyd1888             HPJ50          rnge_lum      spla_hru1888              null           snow001              null
-    1889  hru1889                topohru1889           hyd1889             HPJ29          rnge_lum      spla_hru1889              null           snow001              null
-    1890  hru1890                topohru1890           hyd1890             HPJ37          rnge_lum      spla_hru1890              null           snow001              null
-    1891  hru1891                topohru1891           hyd1891             HPJ29          rnge_lum      spla_hru1891              null           snow001              null
-    1892  hru1892                topohru1892           hyd1892             HPJ34          rnge_lum      spla_hru1892              null           snow001              null
-    1893  hru1893                topohru1893           hyd1893             HPJ47          rnge_lum      spla_hru1893              null           snow001              null
-    1894  hru1894                topohru1894           hyd1894             HPJ47          rnge_lum      spla_hru1894              null           snow001              null
+    1884  hru1884                topohru1884           hyd1884             HPJ29      rnge_377_lum      spla_hru1884              null           snow001              null
+    1885  hru1885                topohru1885           hyd1885             HPJ29      rnge_378_lum      spla_hru1885              null           snow001              null
+    1886  hru1886                topohru1886           hyd1886             HPJ29      rnge_379_lum      spla_hru1886              null           snow001              null
+    1887  hru1887                topohru1887           hyd1887             HPJ50      rnge_380_lum      spla_hru1887              null           snow001              null
+    1888  hru1888                topohru1888           hyd1888             HPJ50      rnge_381_lum      spla_hru1888              null           snow001              null
+    1889  hru1889                topohru1889           hyd1889             HPJ29      rnge_382_lum      spla_hru1889              null           snow001              null
+    1890  hru1890                topohru1890           hyd1890             HPJ37      rnge_383_lum      spla_hru1890              null           snow001              null
+    1891  hru1891                topohru1891           hyd1891             HPJ29      rnge_384_lum      spla_hru1891              null           snow001              null
+    1892  hru1892                topohru1892           hyd1892             HPJ34      rnge_385_lum      spla_hru1892              null           snow001              null
+    1893  hru1893                topohru1893           hyd1893             HPJ47      rnge_386_lum      spla_hru1893              null           snow001              null
+    1894  hru1894                topohru1894           hyd1894             HPJ47      rnge_387_lum      spla_hru1894              null           snow001              null
     1895  hru1895                topohru1895           hyd1895             HPJ47      rnge_drn_lum      spla_hru1895              null           snow001              null
-    1896  hru1896                topohru1896           hyd1896             HPJ73          rnge_lum      spla_hru1896              null           snow001              null
-    1897  hru1897                topohru1897           hyd1897             HPJ34          rnge_lum      spla_hru1897              null           snow001              null
-    1898  hru1898                topohru1898           hyd1898             HPJ68          rnge_lum      spla_hru1898              null           snow001              null
+    1896  hru1896                topohru1896           hyd1896             HPJ73      rnge_388_lum      spla_hru1896              null           snow001              null
+    1897  hru1897                topohru1897           hyd1897             HPJ34      rnge_389_lum      spla_hru1897              null           snow001              null
+    1898  hru1898                topohru1898           hyd1898             HPJ68      rnge_390_lum      spla_hru1898              null           snow001              null
     1899  hru1899                topohru1899           hyd1899             HPJ68      rnge_drn_lum      spla_hru1899              null           snow001              null
-    1900  hru1900                topohru1900           hyd1900             HPJ68          rnge_lum      spla_hru1900              null           snow001              null
-    1901  hru1901                topohru1901           hyd1901             HPJF1          rnge_lum      spla_hru1901              null           snow001              null
-    1902  hru1902                topohru1902           hyd1902             HPJF1          rnge_lum      spla_hru1902              null           snow001              null
-    1903  hru1903                topohru1903           hyd1903             HPJ68          rnge_lum      spla_hru1903              null           snow001              null
-    1904  hru1904                topohru1904           hyd1904             HPJ29          rnge_lum      spla_hru1904              null           snow001              null
-    1905  hru1905                topohru1905           hyd1905             HPJ50          rnge_lum      spla_hru1905              null           snow001              null
-    1906  hru1906                topohru1906           hyd1906             HPJ47          rnge_lum      spla_hru1906              null           snow001              null
-    1907  hru1907                topohru1907           hyd1907             HPJ68          rnge_lum      spla_hru1907              null           snow001              null
-    1908  hru1908                topohru1908           hyd1908             HPJ29          rnge_lum      spla_hru1908              null           snow001              null
-    1909  hru1909                topohru1909           hyd1909             HPJ68          rnge_lum      spla_hru1909              null           snow001              null
+    1900  hru1900                topohru1900           hyd1900             HPJ68      rnge_391_lum      spla_hru1900              null           snow001              null
+    1901  hru1901                topohru1901           hyd1901             HPJF1      rnge_392_lum      spla_hru1901              null           snow001              null
+    1902  hru1902                topohru1902           hyd1902             HPJF1      rnge_393_lum      spla_hru1902              null           snow001              null
+    1903  hru1903                topohru1903           hyd1903             HPJ68      rnge_394_lum      spla_hru1903              null           snow001              null
+    1904  hru1904                topohru1904           hyd1904             HPJ29      rnge_395_lum      spla_hru1904              null           snow001              null
+    1905  hru1905                topohru1905           hyd1905             HPJ50      rnge_396_lum      spla_hru1905              null           snow001              null
+    1906  hru1906                topohru1906           hyd1906             HPJ47      rnge_397_lum      spla_hru1906              null           snow001              null
+    1907  hru1907                topohru1907           hyd1907             HPJ68      rnge_398_lum      spla_hru1907              null           snow001              null
+    1908  hru1908                topohru1908           hyd1908             HPJ29      rnge_399_lum      spla_hru1908              null           snow001              null
+    1909  hru1909                topohru1909           hyd1909             HPJ68      rnge_400_lum      spla_hru1909              null           snow001              null
     1910  hru1910                topohru1910           hyd1910             HPJ50      rnge_drn_lum      spla_hru1910              null           snow001              null
     1911  hru1911                topohru1911           hyd1911             HPJF1      rnge_drn_lum      spla_hru1911              null           snow001              null
     1912  hru1912                topohru1912           hyd1912             HPJ68      rnge_drn_lum      spla_hru1912              null           snow001              null
@@ -1918,25 +1918,25 @@ hru-data.hru: written by SWAT+ editor v2.1.0 on 2023-05-02 16:02 for SWAT+ rev.6
     1916  hru1916                topohru1916           hyd1916             HPJ68      rnge_drn_lum      spla_hru1916              null           snow001              null
     1917  hru1917                topohru1917           hyd1917             HPJ47      rnge_drn_lum      spla_hru1917              null           snow001              null
     1918  hru1918                topohru1918           hyd1918             HPJ68      rnge_drn_lum      spla_hru1918              null           snow001              null
-    1919  hru1919                topohru1919           hyd1919             HPJ34          rnge_lum      spla_hru1919              null           snow001              null
-    1920  hru1920                topohru1920           hyd1920             HPJ29          rnge_lum      spla_hru1920              null           snow001              null
-    1921  hru1921                topohru1921           hyd1921             HPJF3          rnge_lum      spla_hru1921              null           snow001              null
-    1922  hru1922                topohru1922           hyd1922             HPJ29          rnge_lum      spla_hru1922              null           snow001              null
-    1923  hru1923                topohru1923           hyd1923             HPJ50          rnge_lum      spla_hru1923              null           snow001              null
-    1924  hru1924                topohru1924           hyd1924             HPJ34          rnge_lum      spla_hru1924              null           snow001              null
-    1925  hru1925                topohru1925           hyd1925             HPJ29          rnge_lum      spla_hru1925              null           snow001              null
-    1926  hru1926                topohru1926           hyd1926             HPJ50          rnge_lum      spla_hru1926              null           snow001              null
-    1927  hru1927                topohru1927           hyd1927             HPJ50          rnge_lum      spla_hru1927              null           snow001              null
+    1919  hru1919                topohru1919           hyd1919             HPJ34      rnge_401_lum      spla_hru1919              null           snow001              null
+    1920  hru1920                topohru1920           hyd1920             HPJ29      rnge_402_lum      spla_hru1920              null           snow001              null
+    1921  hru1921                topohru1921           hyd1921             HPJF3      rnge_403_lum      spla_hru1921              null           snow001              null
+    1922  hru1922                topohru1922           hyd1922             HPJ29      rnge_404_lum      spla_hru1922              null           snow001              null
+    1923  hru1923                topohru1923           hyd1923             HPJ50      rnge_405_lum      spla_hru1923              null           snow001              null
+    1924  hru1924                topohru1924           hyd1924             HPJ34      rnge_406_lum      spla_hru1924              null           snow001              null
+    1925  hru1925                topohru1925           hyd1925             HPJ29      rnge_407_lum      spla_hru1925              null           snow001              null
+    1926  hru1926                topohru1926           hyd1926             HPJ50      rnge_408_lum      spla_hru1926              null           snow001              null
+    1927  hru1927                topohru1927           hyd1927             HPJ50      rnge_409_lum      spla_hru1927              null           snow001              null
     1928  hru1928                topohru1928           hyd1928             HPJ50      rnge_drn_lum      spla_hru1928              null           snow001              null
-    1929  hru1929                topohru1929           hyd1929             HPJ29          rnge_lum      spla_hru1929              null           snow001              null
-    1930  hru1930                topohru1930           hyd1930             HPJ67          rnge_lum      spla_hru1930              null           snow001              null
-    1931  hru1931                topohru1931           hyd1931             HPJF1          rnge_lum      spla_hru1931              null           snow001              null
-    1932  hru1932                topohru1932           hyd1932             HPJ29          rnge_lum      spla_hru1932              null           snow001              null
-    1933  hru1933                topohru1933           hyd1933             HPJ29          rnge_lum      spla_hru1933              null           snow001              null
-    1934  hru1934                topohru1934           hyd1934             HPJ67          rnge_lum      spla_hru1934              null           snow001              null
-    1935  hru1935                topohru1935           hyd1935             HPJ67          rnge_lum      spla_hru1935              null           snow001              null
-    1936  hru1936                topohru1936           hyd1936             HPJ67          rnge_lum      spla_hru1936              null           snow001              null
-    1937  hru1937                topohru1937           hyd1937             HPJ67          rnge_lum      spla_hru1937              null           snow001              null
+    1929  hru1929                topohru1929           hyd1929             HPJ29      rnge_410_lum      spla_hru1929              null           snow001              null
+    1930  hru1930                topohru1930           hyd1930             HPJ67      rnge_411_lum      spla_hru1930              null           snow001              null
+    1931  hru1931                topohru1931           hyd1931             HPJF1      rnge_412_lum      spla_hru1931              null           snow001              null
+    1932  hru1932                topohru1932           hyd1932             HPJ29      rnge_413_lum      spla_hru1932              null           snow001              null
+    1933  hru1933                topohru1933           hyd1933             HPJ29      rnge_414_lum      spla_hru1933              null           snow001              null
+    1934  hru1934                topohru1934           hyd1934             HPJ67      rnge_415_lum      spla_hru1934              null           snow001              null
+    1935  hru1935                topohru1935           hyd1935             HPJ67      rnge_416_lum      spla_hru1935              null           snow001              null
+    1936  hru1936                topohru1936           hyd1936             HPJ67      rnge_417_lum      spla_hru1936              null           snow001              null
+    1937  hru1937                topohru1937           hyd1937             HPJ67      rnge_418_lum      spla_hru1937              null           snow001              null
     1938  hru1938                topohru1938           hyd1938             HPJ29      rnge_drn_lum      spla_hru1938              null           snow001              null
     1939  hru1939                topohru1939           hyd1939             HPJ67      rnge_drn_lum      spla_hru1939              null           snow001              null
     1940  hru1940                topohru1940           hyd1940             HPJF1      rnge_drn_lum      spla_hru1940              null           snow001              null
@@ -1944,25 +1944,25 @@ hru-data.hru: written by SWAT+ editor v2.1.0 on 2023-05-02 16:02 for SWAT+ rev.6
     1942  hru1942                topohru1942           hyd1942             HPJ67      rnge_drn_lum      spla_hru1942              null           snow001              null
     1943  hru1943                topohru1943           hyd1943             HPJ67      rnge_drn_lum      spla_hru1943              null           snow001              null
     1944  hru1944                topohru1944           hyd1944             HPJ67      rnge_drn_lum      spla_hru1944              null           snow001              null
-    1945  hru1945                topohru1945           hyd1945             HPJ29          rnge_lum      spla_hru1945              null           snow001              null
-    1946  hru1946                topohru1946           hyd1946             HPJ40          rnge_lum      spla_hru1946              null           snow001              null
-    1947  hru1947                topohru1947           hyd1947             HPJ29          rnge_lum      spla_hru1947              null           snow001              null
-    1948  hru1948                topohru1948           hyd1948             HPJ29          rnge_lum      spla_hru1948              null           snow001              null
-    1949  hru1949                topohru1949           hyd1949             HPJF1          rnge_lum      spla_hru1949              null           snow001              null
-    1950  hru1950                topohru1950           hyd1950             HPJ29          rnge_lum      spla_hru1950              null           snow001              null
-    1951  hru1951                topohru1951           hyd1951             HPJ29          rnge_lum      spla_hru1951              null           snow001              null
-    1952  hru1952                topohru1952           hyd1952             HPJ67          rnge_lum      spla_hru1952              null           snow001              null
-    1953  hru1953                topohru1953           hyd1953             HPJ50          rnge_lum      spla_hru1953              null           snow001              null
-    1954  hru1954                topohru1954           hyd1954             HPJ67          rnge_lum      spla_hru1954              null           snow001              null
-    1955  hru1955                topohru1955           hyd1955             HPJ67          rnge_lum      spla_hru1955              null           snow001              null
+    1945  hru1945                topohru1945           hyd1945             HPJ29      rnge_419_lum      spla_hru1945              null           snow001              null
+    1946  hru1946                topohru1946           hyd1946             HPJ40      rnge_420_lum      spla_hru1946              null           snow001              null
+    1947  hru1947                topohru1947           hyd1947             HPJ29      rnge_421_lum      spla_hru1947              null           snow001              null
+    1948  hru1948                topohru1948           hyd1948             HPJ29      rnge_422_lum      spla_hru1948              null           snow001              null
+    1949  hru1949                topohru1949           hyd1949             HPJF1      rnge_423_lum      spla_hru1949              null           snow001              null
+    1950  hru1950                topohru1950           hyd1950             HPJ29      rnge_424_lum      spla_hru1950              null           snow001              null
+    1951  hru1951                topohru1951           hyd1951             HPJ29      rnge_425_lum      spla_hru1951              null           snow001              null
+    1952  hru1952                topohru1952           hyd1952             HPJ67      rnge_426_lum      spla_hru1952              null           snow001              null
+    1953  hru1953                topohru1953           hyd1953             HPJ50      rnge_427_lum      spla_hru1953              null           snow001              null
+    1954  hru1954                topohru1954           hyd1954             HPJ67      rnge_428_lum      spla_hru1954              null           snow001              null
+    1955  hru1955                topohru1955           hyd1955             HPJ67      rnge_429_lum      spla_hru1955              null           snow001              null
     1956  hru1956                topohru1956           hyd1956             HPJ64      rnge_drn_lum      spla_hru1956              null           snow001              null
     1957  hru1957                topohru1957           hyd1957             HPJ67      rnge_drn_lum      spla_hru1957              null           snow001              null
     1958  hru1958                topohru1958           hyd1958             HPJ67      rnge_drn_lum      spla_hru1958              null           snow001              null
-    1959  hru1959                topohru1959           hyd1959             HPJ29          rnge_lum      spla_hru1959              null           snow001              null
-    1960  hru1960                topohru1960           hyd1960             HPJ50          rnge_lum      spla_hru1960              null           snow001              null
-    1961  hru1961                topohru1961           hyd1961             HPJ50          rnge_lum      spla_hru1961              null           snow001              null
-    1962  hru1962                topohru1962           hyd1962             HPJ50          rnge_lum      spla_hru1962              null           snow001              null
-    1963  hru1963                topohru1963           hyd1963             HPJ50          rnge_lum      spla_hru1963              null           snow001              null
+    1959  hru1959                topohru1959           hyd1959             HPJ29      rnge_430_lum      spla_hru1959              null           snow001              null
+    1960  hru1960                topohru1960           hyd1960             HPJ50      rnge_431_lum      spla_hru1960              null           snow001              null
+    1961  hru1961                topohru1961           hyd1961             HPJ50      rnge_432_lum      spla_hru1961              null           snow001              null
+    1962  hru1962                topohru1962           hyd1962             HPJ50      rnge_433_lum      spla_hru1962              null           snow001              null
+    1963  hru1963                topohru1963           hyd1963             HPJ50      rnge_434_lum      spla_hru1963              null           snow001              null
     1964  hru1964                topohru1964           hyd1964             HPJ50      rnge_drn_lum      spla_hru1964              null           snow001              null
     1965  hru1965                topohru1965           hyd1965             HPJ50      rnge_drn_lum      spla_hru1965              null           snow001              null
     1966  hru1966                topohru1966           hyd1966             HPJ29      rnge_drn_lum      spla_hru1966              null           snow001              null

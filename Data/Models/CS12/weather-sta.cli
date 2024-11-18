@@ -1,3 +1,21 @@
-weather-sta.cli: written by SWATprepR R package on 2024-03-18 08:29:28 for SWAT+ rev.60.5.4
-name                          wgn                       pcp                       tmp                       slr                       hmd                       wnd                   wnd_dir                  atmo_dep
-s49616n15078e                 ID1               sta_id1.pcp               sta_id1.tmp               sta_id1.slr               sta_id1.hmd               sta_id1.wnd                      null               atmodep.cli
+weather-sta.cli: written by SWATprepR R package on 2024-08-29 12:40:20 for SWAT+ rev.60.5.4
+name                          wgn                       pcp                       tmp                       slr                       hmd                       wnd                       pet                  atmo_dep
+s49676n15041e                 ID1               sta_id1.pcp               sta_id1.tmp               sta_id1.slr               sta_id1.hmd               sta_id1.wnd                      null               atmodep.cli
+s49640n15048e                ID10              sta_id10.pcp              sta_id10.tmp              sta_id10.slr              sta_id10.hmd              sta_id10.wnd                      null               atmodep.cli
+s49642n15076e                ID11              sta_id11.pcp              sta_id11.tmp              sta_id11.slr              sta_id11.hmd              sta_id11.wnd                      null               atmodep.cli
+s49615n14969e                ID12              sta_id12.pcp              sta_id12.tmp              sta_id12.slr              sta_id12.hmd              sta_id12.wnd                      null               atmodep.cli
+s49618n14997e                ID13              sta_id13.pcp              sta_id13.tmp              sta_id13.slr              sta_id13.hmd              sta_id13.wnd                      null               atmodep.cli
+s49620n15024e                ID14              sta_id14.pcp              sta_id14.tmp              sta_id14.slr              sta_id14.hmd              sta_id14.wnd                      null               atmodep.cli
+s49622n15052e                ID15              sta_id15.pcp              sta_id15.tmp              sta_id15.slr              sta_id15.hmd              sta_id15.wnd                      null               atmodep.cli
+s49625n15079e                ID16              sta_id16.pcp              sta_id16.tmp              sta_id16.slr              sta_id16.hmd              sta_id16.wnd                      null               atmodep.cli
+s49627n15107e                ID17              sta_id17.pcp              sta_id17.tmp              sta_id17.slr              sta_id17.hmd              sta_id17.wnd                      null               atmodep.cli
+s49604n15055e                ID18              sta_id18.pcp              sta_id18.tmp              sta_id18.slr              sta_id18.hmd              sta_id18.wnd                      null               atmodep.cli
+s49607n15083e                ID19              sta_id19.pcp              sta_id19.tmp              sta_id19.slr              sta_id19.hmd              sta_id19.wnd                      null               atmodep.cli
+s49651n14962e                 ID2               sta_id2.pcp               sta_id2.tmp               sta_id2.slr               sta_id2.hmd               sta_id2.wnd                      null               atmodep.cli
+s49653n14990e                 ID3               sta_id3.pcp               sta_id3.tmp               sta_id3.slr               sta_id3.hmd               sta_id3.wnd                      null               atmodep.cli
+s49656n15017e                 ID4               sta_id4.pcp               sta_id4.tmp               sta_id4.slr               sta_id4.hmd               sta_id4.wnd                      null               atmodep.cli
+s49658n15045e                 ID5               sta_id5.pcp               sta_id5.tmp               sta_id5.slr               sta_id5.hmd               sta_id5.wnd                      null               atmodep.cli
+s49660n15072e                 ID6               sta_id6.pcp               sta_id6.tmp               sta_id6.slr               sta_id6.hmd               sta_id6.wnd                      null               atmodep.cli
+s49633n14966e                 ID7               sta_id7.pcp               sta_id7.tmp               sta_id7.slr               sta_id7.hmd               sta_id7.wnd                      null               atmodep.cli
+s49635n14993e                 ID8               sta_id8.pcp               sta_id8.tmp               sta_id8.slr               sta_id8.hmd               sta_id8.wnd                      null               atmodep.cli
+s49638n15021e                 ID9               sta_id9.pcp               sta_id9.tmp               sta_id9.slr               sta_id9.hmd               sta_id9.wnd                      null               atmodep.cli

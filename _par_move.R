@@ -98,7 +98,7 @@ plants_base$name <- factor(plants_base$name, levels = crops_sel, ordered = TRUE)
 
 ## Reading calibrated plants.plt for all the case studies
 plants_df <- NULL
-for(f in folders){
+for(f in f_ini){
   plants <- read_tbl(paste0(f, "/plants.plt.bkp99"))
   plants$cs_name <- basename(f)
   if("wnd_live" %in% names(plants)){

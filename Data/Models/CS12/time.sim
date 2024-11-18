@@ -1,3 +1,3 @@
-time.sim: written by SWATprepR R package on 2024-03-18 08:29:28 for SWAT+ rev.60.5.4 and edited with SWATfarmR 2.0.5 on 2024-03-18 16:29:48
+time.sim: written by SWATprepR R package on 2024-08-29 12:40:20 for SWAT+ rev.60.5.4 and edited with SWATfarmR 2.0.5 on 2024-10-17 15:49:31
 day_start yrc_start   day_end   yrc_end      step
         0       2006         0      2021         0
