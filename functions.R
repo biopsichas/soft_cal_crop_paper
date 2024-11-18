@@ -300,9 +300,13 @@ hru_aa_nb <- function(path, basin = TRUE){
 read_yields <- function(folders){
   yld <- NULL
   for(f in folders){
-    crop <- SWATtunR:::read_tbl(paste0(f, "/basin_crop_yld_aa.txt")) %>%
-      select(plant_name,`harv_area(ha)`, `yld(t/ha)`) %>%
+    crop <- SWATtunR:::read_tbl(paste0(f, "/basin_crop_yld_yr.txt"))%>%
+      select(year, plant_name,`harv_area(ha)`, `yld(t/ha)`) %>%
       rename(yield_mod = `yld(t/ha)`)
+    nb_y <- max(crop$year) - min(crop$year)+1
+    crop <- select(crop, -year) %>%
+      group_by(plant_name) %>%
+      summarise(`harv_area(ha)` = sum(`harv_area(ha)`)/nb_y, yield_mod = sum(`yield_mod`)/nb_y)
     crop$cs_name <- basename(f)
     crop$type <- str_extract(f, paste0('(?<=', results_folder, '/)[^/]+'))
     if(is.null(yld)) yld <- crop else yld <- bind_rows(yld, crop)

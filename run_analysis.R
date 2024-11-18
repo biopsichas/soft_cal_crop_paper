@@ -15,6 +15,7 @@ library(sf)
 library(treemapify)
 library(openxlsx)
 library(data.table)
+
 ## install_github("wilkox/treemapify")
 ## Load custom functions
 source('functions.R')
@@ -131,6 +132,11 @@ source('_par_move.R')
 source('_yield_change.R')
 
 ## d) Plot the crop area
+## basin_crop_yld_yr.txt area used to calculate the crop areas
 source('_crop_area.R')
+
+## e) Plot the crop area (messy, but correct results)
+## shape files used to calculate the crop areas
+source('_crop_area_earlier.R')
 
 
