@@ -132,11 +132,12 @@ source('_par_move.R')
 source('_yield_change.R')
 
 ## d) Plot the crop area
-## basin_crop_yld_yr.txt area used to calculate the crop areas
+## shape files used to calculate the crop areas
 source('_crop_area.R')
 
-## e) Plot the crop area (messy, but correct results)
-## shape files used to calculate the crop areas
-source('_crop_area_earlier.R')
+## _crop_area_other.R file could be used to extract basin_crop_yld_yr.txt area
+## values. Results are different comparing to shape files.
+## source('_crop_area_other.R')
+
 
 
