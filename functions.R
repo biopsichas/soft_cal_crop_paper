@@ -55,7 +55,7 @@ get_results <- function(paths, run_name, basin = TRUE){
 }
 
 ## Preparation of plants.plt base run
-prepare_plants_base <- function(path){
+prepare_plants_base <- function(path, exclude_from_hru_agr = NULL){
   copy_file_version(path, '/plants.plt', file_version = 99)
   plants_plt_fmt <- c('%-12s', '%-18s', '%-12s', rep('%12.5f', ncol(plants_plt_base) - 4), '%-40s')
   if (file.exists(paste0(path,"/plants.plt.bkp0"))) {
@@ -84,7 +84,13 @@ prepare_plants_base <- function(path){
 
   hru_agr <- read_tbl(paste0(path,'/hru-data.hru')) %>%
     select(id, lu_mgt) %>%
-    mutate(n = grepl("[0-9]", lu_mgt)) %>%
+    mutate(n = grepl("[0-9]", lu_mgt))
+  ## Exclude additional HRUs from AGR
+  if (!is.null(exclude_from_hru_agr)) {
+    hru_agr <- hru_agr %>%
+      mutate(n = ifelse(n & grepl(exclude_from_hru_agr, lu_mgt), FALSE, n)) ## example exclude_from_hru_agr = "mdw|orch"
+  }
+  hru_agr <- hru_agr %>%
     filter(n) %>%
     select(id) %>%
     rename(hru_id = id)

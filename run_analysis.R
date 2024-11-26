@@ -35,7 +35,7 @@ path_to_mod <- "Data/Models"
 results_folder <- "Temp"
 ## Names of soft-cal and base folders and how results will be named.
 base_pth <- "initial"
-sc_path <- "soft-cal"
+sc_pth <- "soft-cal"
 
 ## Case studies to exclude from the analysis
 cs_to_exclude <- "CS8" #Multiple CS could be excluded as well "CS8|CS4".
@@ -99,11 +99,11 @@ walk(f_ini, ~prepare_plants_base(.x))
 
 ## Create directory and copy folders
 R.utils::copyDirectory(paste(results_folder, base_pth, sep = "/"),
-                       paste(results_folder, sc_path, sep = "/"))
+                       paste(results_folder, sc_pth, sep = "/"))
 
 ## Overwrite plants.plt files in the case study folders with the soft-calibrated
 ## plants.plt files, which are saved as with the extension .bkp99
-f_sc <- gsub(base_pth, sc_path, f_ini)
+f_sc <- gsub(base_pth, sc_pth, f_ini)
 walk(f_sc, ~file.copy(from = paste0(.x,"/plants.plt.bkp99"),
                          to = paste0(.x, "/plants.plt"), overwrite = TRUE))
 
