@@ -177,7 +177,7 @@ df_final[c("cs_label","proc")] %>% group_by(cs_label) %>% summarise_all(sum)
 ##==============================================================================
 table <- df_final %>%
   pivot_wider(names_from = cs_label, values_from = proc)
-order_cs <- order_cs[order_cs != lookup[!lookup$cs_name %in% unique(res$cs), "cs_label"]]
+# order_cs <- order_cs[order_cs != lookup[!lookup$cs_name %in% unique(res$cs), "cs_label"]]
 table <- table[, c("crop", order_cs)]
 
 ##==============================================================================
@@ -199,9 +199,51 @@ fig6 <- ggplot(df_final, aes(reorder_within(crop, proc, within= tolower(cs_label
 
 ## Plot the data in a treemap
 ## Prepare color schema
-n <- length(unique(df_final$crop))
-qual_col_pals = brewer.pal.info[brewer.pal.info$category == 'qual',]
-color_schema <-  unlist(mapply(brewer.pal, qual_col_pals$maxcolors, rownames(qual_col_pals)))
+# n <- length(unique(df_final$crop))
+# qual_col_pals = brewer.pal.info[brewer.pal.info$category == 'qual',]
+# color_schema <-  unlist(mapply(brewer.pal, qual_col_pals$maxcolors, rownames(qual_col_pals)))
+
+## Count the number of unique crops in plot, which should be equal to the number of colors
+unique(df_final %>% filter(proc >= 1) %>% select(crop)) %>% count
+## Color schema
+color_schema <- c(
+  "akgs" = "#00BFFF",   # Akgs (Alkali Grass)
+  "alfa" = "#FF5733",   # Alfa (Alfalfa)
+  "barl" = "#A1FF66",   # Barley
+  "berm" = "#228B22",   # Bermuda Grass (Green color)
+  "canp" = "#33A1FF",   # Canola
+  "cana" = "#8B0000",   # Canola (Redder variant)
+  "cngr" = "#32CD32",   # Conger (type of grass)
+  "clvr" = "#6699FF",   # Clover
+  "corn" = "#FF5733",   # Corn
+  "crrt" = "#B22222",   # Carrot
+  "csil" = "#33FF57",   # Silage (Corn Silage)
+  "csi"  = "#FF6347",   # Corn Silage (Tomato Red for distinction)
+  "fesc" = "#3357FF",   # Fescue
+  "fpea" = "#66FF99",   # Field Pea
+  "grbn" = "#A52A2A",   # Green Beans (Brownish)
+  "hay"  = "gray80",    # Hay
+  "lmix" = "#FFB6C1",   # Legume Mix
+  "mint" = "#800080",   # Mint (Purple)
+  "oats" = "#FF99FF",   # Oats
+  "onio" = "#FF4500",   # Onion (Orange-Red)
+  "ryeg" = "#A1FF99",    # Ryegrass (Light Green)
+  "peas" = "#9933FF",   # Peas
+  "popy" = "#990000",   # Poppy (Red)
+  "pota" = "#FFD700",   # Potato (Golden)
+  "sgbt" = "#B28DFF",   # Sugar Beet
+  "soy"  = "#006400",   # Soybean (Dark Green)
+  "sunf" = "#FFCC33",   # Sunflower (Yellow)
+  "swht" = "#FF66CC",   # Summer Wheat
+  "tobc" = "#FF9966",   # Tobacco
+  "trit" = "#FF33A1",   # Triticum (Wheat)
+  "wbar" = "#A1FF33",   # Barley Wheat
+  "wira" = "#FFD700",   # Wira (a type of wheat)
+  "wiry" = "#FF6347",   # Wiry (Tomato Red)
+  "wpas" = "#FF99FF",   # Winter Pastures (Pink)
+  "wtrc" = "#0000FF",   # Winter tricale (Blue)
+  "wwht" = "#FF9933"    # Winter Wheat (Light Orange)
+)
 
 ## Plot the treemap
 fig7 <- ggplot(df_final, aes(area = proc, fill = crop, label = crop)) +
@@ -218,7 +260,6 @@ fig7 <- ggplot(df_final, aes(area = proc, fill = crop, label = crop)) +
         strip.text.x = element_text(face = "bold", size = 12),
         legend.position="none",
         plot.margin = unit(c(0,5,5,37), "points"))
-
 
 ##==============================================================================
 ## 12) Save the plots

@@ -58,8 +58,8 @@ lookup <- data.frame(cs_name = c("CS1", "CS2", "CS3", "CS4", "CS7", "CS8",
                                   "HU2", "CZ"))
 
 ## Order of the case studies in the plots
-order_cs <- c("DE", "CH", "HU1", "PL", "BE", "LT", "IT", "NO", "HU2", "CZ")
-
+# order_cs <- c("DE", "CH", "HU1", "PL", "BE", "LT", "IT", "NO", "HU2", "CZ")
+order_cs <- c("NO", "LT", "PL", "BE", "DE", "CH", "CZ", "HU1", "HU2", "IT")
 ## NO USER INPUT BELOW THIS LINE!!!
 
 ##==============================================================================
